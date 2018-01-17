@@ -4,7 +4,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run exhaustive approach')
     parser.add_argument('-train', help='path to train gpickle')
     parser.add_argument('-test', help='path to test gpickle')
-    parser.add_argument('-o', help='path to test gpickle')
+    parser.add_argument('-o', help='output')
     parser.add_argument('-p', help='pattern path')
     parser.add_argument('-e', help='experiment: exact or furer')
     parser.add_argument('-const', help='constant for the target predicate. e.g., protein')
@@ -44,7 +44,7 @@ if __name__ == '__main__':
             if not "pattern" in dir:
                 continue
             p=os.path.join(patterns_path,dir)
-            o=os.path.join(patterns_path,dir).replace("PATTERNS","RESULTS")
+            o=os.path.join(results_path,e,dir)
             f.write(train+","+test+","+o+","+e+","+p+","+const+","+attr+","+rT+","+str(sT)+","+str(max_time)+"\n")
 
 
