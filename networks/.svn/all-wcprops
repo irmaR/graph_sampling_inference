@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/scm/svn/graph_sampling/!svn/ver/52/networks
+END
+enron_network.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/scm/svn/graph_sampling/!svn/ver/1/networks/enron_network.py
+END
+twitter_network.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scm/svn/graph_sampling/!svn/ver/1/networks/twitter_network.py
+END
+amazon_network.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/scm/svn/graph_sampling/!svn/ver/1/networks/amazon_network.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/scm/svn/graph_sampling/!svn/ver/1/networks/__init__.py
+END
+webKb_Cornell_network.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scm/svn/graph_sampling/!svn/ver/1/networks/webKb_Cornell_network.py
+END
+facebook_network.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/scm/svn/graph_sampling/!svn/ver/52/networks/facebook_network.py
+END
+imdb_network.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/scm/svn/graph_sampling/!svn/ver/1/networks/imdb_network.py
+END

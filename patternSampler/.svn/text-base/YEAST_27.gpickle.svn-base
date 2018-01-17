@@ -1,0 +1,361 @@
+graph [
+  node [
+    id 1936
+    label "constant: Protein_YDR120c"
+    predicate "constant"
+    added 1
+    name "Protein_YDR120c"
+  ]
+  node [
+    id 1937
+    label "function = Func_id_11"
+    predicate "function"
+    added 1
+    name "Func_id_11"
+    value "Func_id_11"
+  ]
+  node [
+    id 1938
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 15123
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 1940
+    label "location = Location_id_755"
+    predicate "location"
+    added 1
+    name "Location_id_755"
+    value "Location_id_755"
+  ]
+  node [
+    id 7445
+    label "function = Func_id_10"
+    predicate "function"
+    added 1
+    name "Func_id_10"
+    value "Func_id_10"
+  ]
+  node [
+    id 7446
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 7447
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 15124
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 15144
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 2866
+    label "constant: Protein_YEL017w"
+    predicate "constant"
+    added 1
+    name "Protein_YEL017w"
+  ]
+  node [
+    id 948
+    label "constant: Protein_YCL011c"
+    predicate "constant"
+    added 1
+    name "Protein_YCL011c"
+  ]
+  node [
+    id 949
+    label "function = Func_id_16"
+    predicate "function"
+    added 1
+    name "Func_id_16"
+    value "Func_id_16"
+  ]
+  node [
+    id 950
+    label "function = Func_id_20001"
+    predicate "function"
+    added 1
+    name "Func_id_20001"
+    value "Func_id_20001"
+  ]
+  node [
+    id 951
+    label "function = Func_id_32"
+    predicate "function"
+    added 1
+    name "Func_id_32"
+    value "Func_id_32"
+  ]
+  node [
+    id 952
+    label "function = Func_id_42"
+    predicate "function"
+    added 1
+    name "Func_id_42"
+    value "Func_id_42"
+  ]
+  node [
+    id 953
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 954
+    label "location = Location_id_750009"
+    predicate "location"
+    added 1
+    name "Location_id_750009"
+    value "Location_id_750009"
+  ]
+  node [
+    id 15551
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 15426
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 15305
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 15315
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 15587
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 1939
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 7444
+    label "constant: Protein_YLR035c"
+    predicate "constant"
+    added 1
+    name "Protein_YLR035c"
+  ]
+  node [
+    id 15100
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 1941
+    label "enzyme = Enzyme_id_2001001032"
+    predicate "enzyme"
+    added 1
+    name "Enzyme_id_2001001032"
+    value "Enzyme_id_2001001032"
+  ]
+  edge [
+    source 1936
+    target 7444
+  ]
+  edge [
+    source 1936
+    target 15144
+  ]
+  edge [
+    source 1936
+    target 7447
+  ]
+  edge [
+    source 1936
+    target 1936
+  ]
+  edge [
+    source 1936
+    target 1937
+  ]
+  edge [
+    source 1936
+    target 1938
+  ]
+  edge [
+    source 1936
+    target 15123
+  ]
+  edge [
+    source 1936
+    target 15124
+  ]
+  edge [
+    source 1936
+    target 1941
+  ]
+  edge [
+    source 1936
+    target 7446
+  ]
+  edge [
+    source 1936
+    target 951
+  ]
+  edge [
+    source 1936
+    target 1940
+  ]
+  edge [
+    source 1936
+    target 948
+  ]
+  edge [
+    source 1936
+    target 1939
+  ]
+  edge [
+    source 1938
+    target 2866
+  ]
+  edge [
+    source 15123
+    target 2866
+  ]
+  edge [
+    source 15123
+    target 7444
+  ]
+  edge [
+    source 7445
+    target 15305
+  ]
+  edge [
+    source 7445
+    target 1941
+  ]
+  edge [
+    source 7446
+    target 7444
+  ]
+  edge [
+    source 7447
+    target 7444
+  ]
+  edge [
+    source 15124
+    target 7444
+  ]
+  edge [
+    source 15144
+    target 948
+  ]
+  edge [
+    source 2866
+    target 15426
+  ]
+  edge [
+    source 2866
+    target 15587
+  ]
+  edge [
+    source 2866
+    target 7444
+  ]
+  edge [
+    source 2866
+    target 1941
+  ]
+  edge [
+    source 2866
+    target 15100
+  ]
+  edge [
+    source 2866
+    target 15315
+  ]
+  edge [
+    source 2866
+    target 15551
+  ]
+  edge [
+    source 948
+    target 948
+  ]
+  edge [
+    source 948
+    target 949
+  ]
+  edge [
+    source 948
+    target 950
+  ]
+  edge [
+    source 948
+    target 951
+  ]
+  edge [
+    source 948
+    target 952
+  ]
+  edge [
+    source 948
+    target 953
+  ]
+  edge [
+    source 948
+    target 954
+  ]
+  edge [
+    source 951
+    target 1939
+  ]
+  edge [
+    source 7444
+    target 7444
+  ]
+]

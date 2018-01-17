@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/scm/svn/graph_sampling/!svn/ver/357/convert_graph_to_clause
+END
+yeast_dataset.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scm/svn/graph_sampling/!svn/ver/19/convert_graph_to_clause/yeast_dataset.py
+END
+convert_facebook_patterns_to_clauses.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/scm/svn/graph_sampling/!svn/ver/354/convert_graph_to_clause/convert_facebook_patterns_to_clauses.py
+END
+convert_WEBKB_patterns_to_clauses.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/scm/svn/graph_sampling/!svn/ver/340/convert_graph_to_clause/convert_WEBKB_patterns_to_clauses.py
+END
+satisfaction_dataset.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/scm/svn/graph_sampling/!svn/ver/19/convert_graph_to_clause/satisfaction_dataset.py
+END
+convert_IMDB_patterns_to_clauses.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/scm/svn/graph_sampling/!svn/ver/336/convert_graph_to_clause/convert_IMDB_patterns_to_clauses.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/scm/svn/graph_sampling/!svn/ver/1/convert_graph_to_clause/__init__.py
+END
+clause.info
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/scm/svn/graph_sampling/!svn/ver/354/convert_graph_to_clause/clause.info
+END
+clean_FACT_files.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/scm/svn/graph_sampling/!svn/ver/346/convert_graph_to_clause/clean_FACT_files.py
+END
+convert_dblp_patterns_to_clauses.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/scm/svn/graph_sampling/!svn/ver/357/convert_graph_to_clause/convert_dblp_patterns_to_clauses.py
+END
+convert_enron_patterns_to_clauses.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/scm/svn/graph_sampling/!svn/ver/341/convert_graph_to_clause/convert_enron_patterns_to_clauses.py
+END
+convert_yeast_patterns_to_clauses.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/scm/svn/graph_sampling/!svn/ver/333/convert_graph_to_clause/convert_yeast_patterns_to_clauses.py
+END
+convert_amazon_patterns_to_clauses.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/scm/svn/graph_sampling/!svn/ver/343/convert_graph_to_clause/convert_amazon_patterns_to_clauses.py
+END

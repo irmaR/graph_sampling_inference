@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/scm/svn/graph_sampling/!svn/ver/354/plotting
+END
+no_obd_all.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/scm/svn/graph_sampling/!svn/ver/324/plotting/no_obd_all.py
+END
+plots_synthetic.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scm/svn/graph_sampling/!svn/ver/1/plotting/plots_synthetic.py
+END
+plotting_latex.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/scm/svn/graph_sampling/!svn/ver/1/plotting/plotting_latex.py
+END
+exhaustive_DBLP_YEAST_runtime.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/scm/svn/graph_sampling/!svn/ver/282/plotting/exhaustive_DBLP_YEAST_runtime.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/scm/svn/graph_sampling/!svn/ver/1/plotting/__init__.py
+END
+percentage_of_exhaustive_KLD.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/scm/svn/graph_sampling/!svn/ver/1/plotting/percentage_of_exhaustive_KLD.py
+END
+timeout_exhaustive_self_baseline.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/scm/svn/graph_sampling/!svn/ver/324/plotting/timeout_exhaustive_self_baseline.py
+END
+plot_flat_OBD.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scm/svn/graph_sampling/!svn/ver/324/plotting/plot_flat_OBD.py
+END
+percentage_of_exhaustive_yeast.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/scm/svn/graph_sampling/!svn/ver/1/plotting/percentage_of_exhaustive_yeast.py
+END
+FACT_vs_furer_OBD.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/scm/svn/graph_sampling/!svn/ver/354/plotting/FACT_vs_furer_OBD.py
+END
+percentage_of_exhaustive_timed_out_per_pattern_size.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/scm/svn/graph_sampling/!svn/ver/1/plotting/percentage_of_exhaustive_timed_out_per_pattern_size.py
+END
+runtime_average.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/scm/svn/graph_sampling/!svn/ver/282/plotting/runtime_average.py
+END
+make_additional_csv_file.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/scm/svn/graph_sampling/!svn/ver/1/plotting/make_additional_csv_file.py
+END
+percentage_with_obdecomp.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/scm/svn/graph_sampling/!svn/ver/324/plotting/percentage_with_obdecomp.py
+END
+percentage_of_exhaustive_rel_Error.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/scm/svn/graph_sampling/!svn/ver/354/plotting/percentage_of_exhaustive_rel_Error.py
+END
+percentage_exhaustive_single_plot.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/scm/svn/graph_sampling/!svn/ver/354/plotting/percentage_exhaustive_single_plot.py
+END
+exhaustive_fail_versus_nr_constants.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/scm/svn/graph_sampling/!svn/ver/1/plotting/exhaustive_fail_versus_nr_constants.py
+END
+collect_statistics_for_particular_approach_vs_exhaustive.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/scm/svn/graph_sampling/!svn/ver/264/plotting/collect_statistics_for_particular_approach_vs_exhaustive.py
+END
+latexify.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/scm/svn/graph_sampling/!svn/ver/1/plotting/latexify.py
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/scm/svn/graph_sampling/!svn/ver/252/generate_patterns
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/scm/svn/graph_sampling/!svn/ver/1/generate_patterns/__init__.py
+END
+generate_initial_small_level_patterns.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/scm/svn/graph_sampling/!svn/ver/1/generate_patterns/generate_initial_small_level_patterns.py
+END
+generate_patterns_from_previous_level_graphs.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/scm/svn/graph_sampling/!svn/ver/1/generate_patterns/generate_patterns_from_previous_level_graphs.py
+END
+generate_patterns_from_selected.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/scm/svn/graph_sampling/!svn/ver/252/generate_patterns/generate_patterns_from_selected.py
+END

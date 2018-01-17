@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/scm/svn/graph_sampling/!svn/ver/355/convert_graph_to_logic
+END
+convert_facebook.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/scm/svn/graph_sampling/!svn/ver/354/convert_graph_to_logic/convert_facebook.py
+END
+convert_webkb.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scm/svn/graph_sampling/!svn/ver/338/convert_graph_to_logic/convert_webkb.py
+END
+convert_imdb.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/scm/svn/graph_sampling/!svn/ver/334/convert_graph_to_logic/convert_imdb.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/scm/svn/graph_sampling/!svn/ver/1/convert_graph_to_logic/__init__.py
+END
+convert_dblp.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/scm/svn/graph_sampling/!svn/ver/355/convert_graph_to_logic/convert_dblp.py
+END
+convert_enron.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scm/svn/graph_sampling/!svn/ver/341/convert_graph_to_logic/convert_enron.py
+END
+convert_amaxon.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/scm/svn/graph_sampling/!svn/ver/341/convert_graph_to_logic/convert_amaxon.py
+END
+convert_yeast.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/scm/svn/graph_sampling/!svn/ver/1/convert_graph_to_logic/convert_yeast.py
+END
+convert_satisfaction.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/scm/svn/graph_sampling/!svn/ver/355/convert_graph_to_logic/convert_satisfaction.py
+END

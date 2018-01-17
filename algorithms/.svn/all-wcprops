@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/scm/svn/graph_sampling/!svn/ver/264/algorithms
+END
+furer_algorithm.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/scm/svn/graph_sampling/!svn/ver/264/algorithms/furer_algorithm.py
+END
+exhaustive_approach_inf.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/scm/svn/graph_sampling/!svn/ver/1/algorithms/exhaustive_approach_inf.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/scm/svn/graph_sampling/!svn/ver/1/algorithms/__init__.py
+END
+false_furer_algorithm.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/scm/svn/graph_sampling/!svn/ver/1/algorithms/false_furer_algorithm.py
+END
+random_vertex_sampling.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/scm/svn/graph_sampling/!svn/ver/1/algorithms/random_vertex_sampling.py
+END

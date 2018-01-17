@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/scm/svn/graph_sampling/!svn/ver/351/sampling
+END
+webkb_sampling_script.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scm/svn/graph_sampling/!svn/ver/1/sampling/webkb_sampling_script.py
+END
+enron_sampling.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/scm/svn/graph_sampling/!svn/ver/256/sampling/enron_sampling.py
+END
+full_facebook.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scm/svn/graph_sampling/!svn/ver/170/sampling/full_facebook.py
+END
+full_imdb.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/scm/svn/graph_sampling/!svn/ver/194/sampling/full_imdb.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/scm/svn/graph_sampling/!svn/ver/1/sampling/__init__.py
+END
+amazon_sampling.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/scm/svn/graph_sampling/!svn/ver/36/sampling/amazon_sampling.py
+END
+webkb_full_run.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/scm/svn/graph_sampling/!svn/ver/351/sampling/webkb_full_run.py
+END
+sampling_facebook.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/scm/svn/graph_sampling/!svn/ver/65/sampling/sampling_facebook.py
+END
+enron_full.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/scm/svn/graph_sampling/!svn/ver/262/sampling/enron_full.py
+END
+imdb_reporting.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/scm/svn/graph_sampling/!svn/ver/1/sampling/imdb_reporting.py
+END
+amazon_full.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/scm/svn/graph_sampling/!svn/ver/235/sampling/amazon_full.py
+END
+yeast_full_false_furer_rnd.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/scm/svn/graph_sampling/!svn/ver/147/sampling/yeast_full_false_furer_rnd.py
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/scm/svn/graph_sampling/!svn/ver/1/scripts
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/scm/svn/graph_sampling/!svn/ver/1/scripts/__init__.py
+END
+change_to_wrongly_selected.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/scm/svn/graph_sampling/!svn/ver/1/scripts/change_to_wrongly_selected.py
+END
+extract_wrongly_selected.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/scm/svn/graph_sampling/!svn/ver/1/scripts/extract_wrongly_selected.py
+END

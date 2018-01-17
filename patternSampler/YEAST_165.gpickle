@@ -1,0 +1,2482 @@
+graph [
+  node [
+    id 4096
+    label "function = Func_id_20"
+    predicate "function"
+    added 1
+    name "Func_id_20"
+    value "Func_id_20"
+  ]
+  node [
+    id 4097
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 4098
+    label "location = Location_id_735"
+    predicate "location"
+    added 1
+    name "Location_id_735"
+    value "Location_id_735"
+  ]
+  node [
+    id 4099
+    label "location = Location_id_750001"
+    predicate "location"
+    added 1
+    name "Location_id_750001"
+    value "Location_id_750001"
+  ]
+  node [
+    id 4100
+    label "location = Location_id_760"
+    predicate "location"
+    added 1
+    name "Location_id_760"
+    value "Location_id_760"
+  ]
+  node [
+    id 4101
+    label "location = Location_id_760001"
+    predicate "location"
+    added 1
+    name "Location_id_760001"
+    value "Location_id_760001"
+  ]
+  node [
+    id 14680
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 10073
+    label "function = Func_id_11"
+    predicate "function"
+    added 1
+    name "Func_id_11"
+    value "Func_id_11"
+  ]
+  node [
+    id 10274
+    label "constant: Protein_YOL043c"
+    predicate "constant"
+    added 1
+    name "Protein_YOL043c"
+  ]
+  node [
+    id 10275
+    label "function = Func_id_10"
+    predicate "function"
+    added 1
+    name "Func_id_10"
+    value "Func_id_10"
+  ]
+  node [
+    id 10276
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 10277
+    label "location = Location_id_755"
+    predicate "location"
+    added 1
+    name "Location_id_755"
+    value "Location_id_755"
+  ]
+  node [
+    id 8742
+    label "constant: Protein_YMR014w"
+    predicate "constant"
+    added 1
+    name "Protein_YMR014w"
+  ]
+  node [
+    id 8743
+    label "function = Func_id_43001003"
+    predicate "function"
+    added 1
+    name "Func_id_43001003"
+    value "Func_id_43001003"
+  ]
+  node [
+    id 8744
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 8745
+    label "location = Location_id_750005"
+    predicate "location"
+    added 1
+    name "Location_id_750005"
+    value "Location_id_750005"
+  ]
+  node [
+    id 14378
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 44
+    label "constant: Protein_YAL024c"
+    predicate "constant"
+    added 1
+    name "Protein_YAL024c"
+  ]
+  node [
+    id 46
+    label "function = Func_id_18002"
+    predicate "function"
+    added 1
+    name "Func_id_18002"
+    value "Func_id_18002"
+  ]
+  node [
+    id 50
+    label "phenotype = Phenotype_id_32010"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_32010"
+    value "Phenotype_id_32010"
+  ]
+  node [
+    id 5185
+    label "constant: Protein_YHR039c"
+    predicate "constant"
+    added 1
+    name "Protein_YHR039c"
+  ]
+  node [
+    id 5186
+    label "function = Func_id_2"
+    predicate "function"
+    added 1
+    name "Func_id_2"
+    value "Func_id_2"
+  ]
+  node [
+    id 5189
+    label "enzyme = Enzyme_id_1002001016"
+    predicate "enzyme"
+    added 1
+    name "Enzyme_id_1002001016"
+    value "Enzyme_id_1002001016"
+  ]
+  node [
+    id 5706
+    label "constant: Protein_YIL060w"
+    predicate "constant"
+    added 1
+    name "Protein_YIL060w"
+  ]
+  node [
+    id 5707
+    label "function = Func_id_99"
+    predicate "function"
+    added 1
+    name "Func_id_99"
+    value "Func_id_99"
+  ]
+  node [
+    id 11342
+    label "constant: Protein_YPL016w"
+    predicate "constant"
+    added 1
+    name "Protein_YPL016w"
+  ]
+  node [
+    id 11343
+    label "function = Func_id_1"
+    predicate "function"
+    added 1
+    name "Func_id_1"
+    value "Func_id_1"
+  ]
+  node [
+    id 11345
+    label "function = Func_id_11002"
+    predicate "function"
+    added 1
+    name "Func_id_11002"
+    value "Func_id_11002"
+  ]
+  node [
+    id 11346
+    label "function = Func_id_34011"
+    predicate "function"
+    added 1
+    name "Func_id_34011"
+    value "Func_id_34011"
+  ]
+  node [
+    id 11347
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 11348
+    label "complex = Complex_id_510190050"
+    predicate "complex"
+    added 1
+    name "Complex_id_510190050"
+    value "Complex_id_510190050"
+  ]
+  node [
+    id 7258
+    label "constant: Protein_YKR090w"
+    predicate "constant"
+    added 1
+    name "Protein_YKR090w"
+  ]
+  node [
+    id 7259
+    label "function = Func_id_16"
+    predicate "function"
+    added 1
+    name "Func_id_16"
+    value "Func_id_16"
+  ]
+  node [
+    id 7260
+    label "function = Func_id_43001003"
+    predicate "function"
+    added 1
+    name "Func_id_43001003"
+    value "Func_id_43001003"
+  ]
+  node [
+    id 7261
+    label "location = Location_id_705"
+    predicate "location"
+    added 1
+    name "Location_id_705"
+    value "Location_id_705"
+  ]
+  node [
+    id 7262
+    label "location = Location_id_705001"
+    predicate "location"
+    added 1
+    name "Location_id_705001"
+    value "Location_id_705001"
+  ]
+  node [
+    id 7263
+    label "location = Location_id_705003"
+    predicate "location"
+    added 1
+    name "Location_id_705003"
+    value "Location_id_705003"
+  ]
+  node [
+    id 7264
+    label "location = Location_id_715"
+    predicate "location"
+    added 1
+    name "Location_id_715"
+    value "Location_id_715"
+  ]
+  node [
+    id 7265
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 14269
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 3697
+    label "constant: Protein_YFR022w"
+    predicate "constant"
+    added 1
+    name "Protein_YFR022w"
+  ]
+  node [
+    id 3698
+    label "function = Func_id_32"
+    predicate "function"
+    added 1
+    name "Func_id_32"
+    value "Func_id_32"
+  ]
+  node [
+    id 5260
+    label "constant: Protein_YHR067w"
+    predicate "constant"
+    added 1
+    name "Protein_YHR067w"
+  ]
+  node [
+    id 5261
+    label "function = Func_id_99"
+    predicate "function"
+    added 1
+    name "Func_id_99"
+    value "Func_id_99"
+  ]
+  node [
+    id 5262
+    label "location = Location_id_755"
+    predicate "location"
+    added 1
+    name "Location_id_755"
+    value "Location_id_755"
+  ]
+  node [
+    id 14479
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14480
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14481
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14482
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14483
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14484
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14485
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14486
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14487
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14488
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14489
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14491
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14492
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14493
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14494
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14495
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14496
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14497
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14498
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14499
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14500
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14501
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 13997
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 13998
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 4288
+    label "constant: Protein_YGL220w"
+    predicate "constant"
+    added 1
+    name "Protein_YGL220w"
+  ]
+  node [
+    id 4289
+    label "function = Func_id_99"
+    predicate "function"
+    added 1
+    name "Func_id_99"
+    value "Func_id_99"
+  ]
+  node [
+    id 4290
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 4291
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 14027
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 6867
+    label "constant: Protein_YKL114c"
+    predicate "constant"
+    added 1
+    name "Protein_YKL114c"
+  ]
+  node [
+    id 6868
+    label "function = Func_id_10"
+    predicate "function"
+    added 1
+    name "Func_id_10"
+    value "Func_id_10"
+  ]
+  node [
+    id 6869
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 7894
+    label "constant: Protein_YLR249w"
+    predicate "constant"
+    added 1
+    name "Protein_YLR249w"
+  ]
+  node [
+    id 6871
+    label "location = Location_id_755"
+    predicate "location"
+    added 1
+    name "Location_id_755"
+    value "Location_id_755"
+  ]
+  node [
+    id 6872
+    label "enzyme = Enzyme_id_4002099018"
+    predicate "enzyme"
+    added 1
+    name "Enzyme_id_4002099018"
+    value "Enzyme_id_4002099018"
+  ]
+  node [
+    id 7897
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 6874
+    label "phenotype = Phenotype_id_62015099010"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_62015099010"
+    value "Phenotype_id_62015099010"
+  ]
+  node [
+    id 6875
+    label "phenotype = Phenotype_id_82005010"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_82005010"
+    value "Phenotype_id_82005010"
+  ]
+  node [
+    id 7900
+    label "phenotype = Phenotype_id_52015099"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_52015099"
+    value "Phenotype_id_52015099"
+  ]
+  node [
+    id 7901
+    label "complex = Complex_id_500020030"
+    predicate "complex"
+    added 1
+    name "Complex_id_500020030"
+    value "Complex_id_500020030"
+  ]
+  node [
+    id 7902
+    label "protein_class = Pc_id_41061"
+    predicate "protein_class"
+    added 1
+    name "Pc_id_41061"
+    value "Pc_id_41061"
+  ]
+  node [
+    id 10278
+    label "enzyme = Enzyme_id_4002099018"
+    predicate "enzyme"
+    added 1
+    name "Enzyme_id_4002099018"
+    value "Enzyme_id_4002099018"
+  ]
+  node [
+    id 6374
+    label "constant: Protein_YJL215c"
+    predicate "constant"
+    added 1
+    name "Protein_YJL215c"
+  ]
+  node [
+    id 6375
+    label "function = Func_id_99"
+    predicate "function"
+    added 1
+    name "Func_id_99"
+    value "Func_id_99"
+  ]
+  node [
+    id 14574
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 3328
+    label "constant: Protein_YER136w"
+    predicate "constant"
+    added 1
+    name "Protein_YER136w"
+  ]
+  node [
+    id 6870
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 7895
+    label "function = Func_id_12"
+    predicate "function"
+    added 1
+    name "Func_id_12"
+    value "Func_id_12"
+  ]
+  node [
+    id 5938
+    label "function = Func_id_16"
+    predicate "function"
+    added 1
+    name "Func_id_16"
+    value "Func_id_16"
+  ]
+  node [
+    id 7896
+    label "function = Func_id_42"
+    predicate "function"
+    added 1
+    name "Func_id_42"
+    value "Func_id_42"
+  ]
+  node [
+    id 6873
+    label "phenotype = Phenotype_id_62015005010"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_62015005010"
+    value "Phenotype_id_62015005010"
+  ]
+  node [
+    id 6959
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 7898
+    label "phenotype = Phenotype_id_102"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_102"
+    value "Phenotype_id_102"
+  ]
+  node [
+    id 5936
+    label "function = Func_id_11"
+    predicate "function"
+    added 1
+    name "Func_id_11"
+    value "Func_id_11"
+  ]
+  node [
+    id 7899
+    label "phenotype = Phenotype_id_52015015010"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_52015015010"
+    value "Phenotype_id_52015015010"
+  ]
+  node [
+    id 6961
+    label "location = Location_id_770001"
+    predicate "location"
+    added 1
+    name "Location_id_770001"
+    value "Location_id_770001"
+  ]
+  node [
+    id 6956
+    label "constant: Protein_YKL146w"
+    predicate "constant"
+    added 1
+    name "Protein_YKL146w"
+  ]
+  node [
+    id 6957
+    label "function = Func_id_20001"
+    predicate "function"
+    added 1
+    name "Func_id_20001"
+    value "Func_id_20001"
+  ]
+  node [
+    id 6958
+    label "function = Func_id_20"
+    predicate "function"
+    added 1
+    name "Func_id_20"
+    value "Func_id_20"
+  ]
+  node [
+    id 5935
+    label "constant: Protein_YIR009w"
+    predicate "constant"
+    added 1
+    name "Protein_YIR009w"
+  ]
+  node [
+    id 6960
+    label "location = Location_id_735"
+    predicate "location"
+    added 1
+    name "Location_id_735"
+    value "Location_id_735"
+  ]
+  node [
+    id 5937
+    label "function = Func_id_14"
+    predicate "function"
+    added 1
+    name "Func_id_14"
+    value "Func_id_14"
+  ]
+  node [
+    id 6962
+    label "protein_class = Pc_id_121"
+    predicate "protein_class"
+    added 1
+    name "Pc_id_121"
+    value "Pc_id_121"
+  ]
+  node [
+    id 5939
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 5940
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 5941
+    label "phenotype = Phenotype_id_12010"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_12010"
+    value "Phenotype_id_12010"
+  ]
+  node [
+    id 5942
+    label "phenotype = Phenotype_id_12015"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_12015"
+    value "Phenotype_id_12015"
+  ]
+  node [
+    id 11077
+    label "constant: Protein_YOR264w"
+    predicate "constant"
+    added 1
+    name "Protein_YOR264w"
+  ]
+  node [
+    id 11078
+    label "function = Func_id_99"
+    predicate "function"
+    added 1
+    name "Func_id_99"
+    value "Func_id_99"
+  ]
+  node [
+    id 11079
+    label "location = Location_id_705003"
+    predicate "location"
+    added 1
+    name "Location_id_705003"
+    value "Location_id_705003"
+  ]
+  node [
+    id 14670
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14672
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14674
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 10072
+    label "constant: Protein_YNR015w"
+    predicate "constant"
+    added 1
+    name "Protein_YNR015w"
+  ]
+  node [
+    id 14169
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 10074
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 5263
+    label "phenotype = Phenotype_id_12015"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_12015"
+    value "Phenotype_id_12015"
+  ]
+  node [
+    id 14202
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14204
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 1920
+    label "constant: Protein_YDR115w"
+    predicate "constant"
+    added 1
+    name "Protein_YDR115w"
+  ]
+  node [
+    id 1921
+    label "function = Func_id_2"
+    predicate "function"
+    added 1
+    name "Func_id_2"
+    value "Func_id_2"
+  ]
+  node [
+    id 1922
+    label "function = Func_id_12"
+    predicate "function"
+    added 1
+    name "Func_id_12"
+    value "Func_id_12"
+  ]
+  node [
+    id 1923
+    label "function = Func_id_42"
+    predicate "function"
+    added 1
+    name "Func_id_42"
+    value "Func_id_42"
+  ]
+  node [
+    id 1924
+    label "location = Location_id_755"
+    predicate "location"
+    added 1
+    name "Location_id_755"
+    value "Location_id_755"
+  ]
+  node [
+    id 1925
+    label "location = Location_id_755007"
+    predicate "location"
+    added 1
+    name "Location_id_755007"
+    value "Location_id_755007"
+  ]
+  node [
+    id 1926
+    label "complex = Complex_id_500060010"
+    predicate "complex"
+    added 1
+    name "Complex_id_500060010"
+    value "Complex_id_500060010"
+  ]
+  node [
+    id 14736
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 14231
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 10146
+    label "constant: Protein_YNR068c"
+    predicate "constant"
+    added 1
+    name "Protein_YNR068c"
+  ]
+  node [
+    id 10147
+    label "function = Func_id_99"
+    predicate "function"
+    added 1
+    name "Func_id_99"
+    value "Func_id_99"
+  ]
+  node [
+    id 3497
+    label "constant: Protein_YFL013c"
+    predicate "constant"
+    added 1
+    name "Protein_YFL013c"
+  ]
+  node [
+    id 3498
+    label "function = Func_id_10001009"
+    predicate "function"
+    added 1
+    name "Func_id_10001009"
+    value "Func_id_10001009"
+  ]
+  node [
+    id 3499
+    label "function = Func_id_42"
+    predicate "function"
+    added 1
+    name "Func_id_42"
+    value "Func_id_42"
+  ]
+  node [
+    id 3500
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 6062
+    label "constant: Protein_YJL055w"
+    predicate "constant"
+    added 1
+    name "Protein_YJL055w"
+  ]
+  node [
+    id 6063
+    label "function = Func_id_99"
+    predicate "function"
+    added 1
+    name "Func_id_99"
+    value "Func_id_99"
+  ]
+  node [
+    id 6064
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 6065
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 6066
+    label "location = Location_id_755"
+    predicate "location"
+    added 1
+    name "Location_id_755"
+    value "Location_id_755"
+  ]
+  node [
+    id 11196
+    label "constant: Protein_YOR324c"
+    predicate "constant"
+    added 1
+    name "Protein_YOR324c"
+  ]
+  node [
+    id 11197
+    label "function = Func_id_30"
+    predicate "function"
+    added 1
+    name "Func_id_30"
+    value "Func_id_30"
+  ]
+  node [
+    id 11198
+    label "function = Func_id_32"
+    predicate "function"
+    added 1
+    name "Func_id_32"
+    value "Func_id_32"
+  ]
+  node [
+    id 11199
+    label "location = Location_id_725"
+    predicate "location"
+    added 1
+    name "Location_id_725"
+    value "Location_id_725"
+  ]
+  node [
+    id 11200
+    label "location = Location_id_735001"
+    predicate "location"
+    added 1
+    name "Location_id_735001"
+    value "Location_id_735001"
+  ]
+  node [
+    id 971
+    label "constant: Protein_YCL029c"
+    predicate "constant"
+    added 1
+    name "Protein_YCL029c"
+  ]
+  node [
+    id 972
+    label "function = Func_id_10"
+    predicate "function"
+    added 1
+    name "Func_id_10"
+    value "Func_id_10"
+  ]
+  node [
+    id 973
+    label "function = Func_id_16"
+    predicate "function"
+    added 1
+    name "Func_id_16"
+    value "Func_id_16"
+  ]
+  node [
+    id 974
+    label "function = Func_id_34011"
+    predicate "function"
+    added 1
+    name "Func_id_34011"
+    value "Func_id_34011"
+  ]
+  node [
+    id 977
+    label "location = Location_id_730003"
+    predicate "location"
+    added 1
+    name "Location_id_730003"
+    value "Location_id_730003"
+  ]
+  node [
+    id 978
+    label "location = Location_id_730005"
+    predicate "location"
+    added 1
+    name "Location_id_730005"
+    value "Location_id_730005"
+  ]
+  node [
+    id 979
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 980
+    label "phenotype = Phenotype_id_12010"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_12010"
+    value "Phenotype_id_12010"
+  ]
+  node [
+    id 981
+    label "phenotype = Phenotype_id_22099"
+    predicate "phenotype"
+    added 1
+    name "Phenotype_id_22099"
+    value "Phenotype_id_22099"
+  ]
+  node [
+    id 14821
+    label "interaction"
+    predicate "interaction"
+    added 1
+    name "interaction"
+  ]
+  node [
+    id 10075
+    label "location = Location_id_750"
+    predicate "location"
+    added 1
+    name "Location_id_750"
+    value "Location_id_750"
+  ]
+  node [
+    id 8180
+    label "constant: Protein_YLR334c"
+    predicate "constant"
+    added 1
+    name "Protein_YLR334c"
+  ]
+  node [
+    id 8181
+    label "function = Func_id_99"
+    predicate "function"
+    added 1
+    name "Func_id_99"
+    value "Func_id_99"
+  ]
+  node [
+    id 4093
+    label "constant: Protein_YGL153w"
+    predicate "constant"
+    added 1
+    name "Protein_YGL153w"
+  ]
+  node [
+    id 4094
+    label "function = Func_id_14"
+    predicate "function"
+    added 1
+    name "Func_id_14"
+    value "Func_id_14"
+  ]
+  node [
+    id 4095
+    label "function = Func_id_16"
+    predicate "function"
+    added 1
+    name "Func_id_16"
+    value "Func_id_16"
+  ]
+  edge [
+    source 4096
+    target 6956
+  ]
+  edge [
+    source 4097
+    target 4093
+  ]
+  edge [
+    source 4097
+    target 8742
+  ]
+  edge [
+    source 4098
+    target 4093
+  ]
+  edge [
+    source 4099
+    target 6867
+  ]
+  edge [
+    source 4100
+    target 10146
+  ]
+  edge [
+    source 4100
+    target 4093
+  ]
+  edge [
+    source 4101
+    target 11077
+  ]
+  edge [
+    source 4101
+    target 4093
+  ]
+  edge [
+    source 14680
+    target 971
+  ]
+  edge [
+    source 10073
+    target 10146
+  ]
+  edge [
+    source 10073
+    target 11342
+  ]
+  edge [
+    source 10274
+    target 10275
+  ]
+  edge [
+    source 10274
+    target 10276
+  ]
+  edge [
+    source 10274
+    target 11077
+  ]
+  edge [
+    source 10274
+    target 8742
+  ]
+  edge [
+    source 10274
+    target 5935
+  ]
+  edge [
+    source 10274
+    target 14482
+  ]
+  edge [
+    source 10274
+    target 11078
+  ]
+  edge [
+    source 10274
+    target 14500
+  ]
+  edge [
+    source 10274
+    target 10278
+  ]
+  edge [
+    source 10275
+    target 7258
+  ]
+  edge [
+    source 10277
+    target 5936
+  ]
+  edge [
+    source 10277
+    target 7258
+  ]
+  edge [
+    source 10277
+    target 5940
+  ]
+  edge [
+    source 10277
+    target 14485
+  ]
+  edge [
+    source 10277
+    target 11198
+  ]
+  edge [
+    source 8742
+    target 1920
+  ]
+  edge [
+    source 8742
+    target 14497
+  ]
+  edge [
+    source 8742
+    target 8744
+  ]
+  edge [
+    source 8742
+    target 8745
+  ]
+  edge [
+    source 8742
+    target 14498
+  ]
+  edge [
+    source 8742
+    target 13998
+  ]
+  edge [
+    source 8742
+    target 7894
+  ]
+  edge [
+    source 8742
+    target 14488
+  ]
+  edge [
+    source 8742
+    target 7258
+  ]
+  edge [
+    source 8742
+    target 6875
+  ]
+  edge [
+    source 8742
+    target 14204
+  ]
+  edge [
+    source 8742
+    target 7902
+  ]
+  edge [
+    source 8743
+    target 3328
+  ]
+  edge [
+    source 8743
+    target 10146
+  ]
+  edge [
+    source 8744
+    target 6867
+  ]
+  edge [
+    source 14378
+    target 44
+  ]
+  edge [
+    source 44
+    target 14821
+  ]
+  edge [
+    source 44
+    target 13997
+  ]
+  edge [
+    source 44
+    target 46
+  ]
+  edge [
+    source 44
+    target 50
+  ]
+  edge [
+    source 44
+    target 13998
+  ]
+  edge [
+    source 44
+    target 7896
+  ]
+  edge [
+    source 44
+    target 7897
+  ]
+  edge [
+    source 44
+    target 7901
+  ]
+  edge [
+    source 44
+    target 5941
+  ]
+  edge [
+    source 5185
+    target 11347
+  ]
+  edge [
+    source 5185
+    target 5189
+  ]
+  edge [
+    source 5185
+    target 972
+  ]
+  edge [
+    source 5185
+    target 6956
+  ]
+  edge [
+    source 5185
+    target 974
+  ]
+  edge [
+    source 5185
+    target 6867
+  ]
+  edge [
+    source 5185
+    target 981
+  ]
+  edge [
+    source 5185
+    target 14269
+  ]
+  edge [
+    source 5185
+    target 14485
+  ]
+  edge [
+    source 5186
+    target 971
+  ]
+  edge [
+    source 5706
+    target 4291
+  ]
+  edge [
+    source 5706
+    target 6062
+  ]
+  edge [
+    source 5706
+    target 14487
+  ]
+  edge [
+    source 5707
+    target 14480
+  ]
+  edge [
+    source 5707
+    target 11077
+  ]
+  edge [
+    source 11342
+    target 3328
+  ]
+  edge [
+    source 11342
+    target 10147
+  ]
+  edge [
+    source 11342
+    target 6374
+  ]
+  edge [
+    source 11342
+    target 3697
+  ]
+  edge [
+    source 11342
+    target 11345
+  ]
+  edge [
+    source 11342
+    target 14169
+  ]
+  edge [
+    source 11342
+    target 5937
+  ]
+  edge [
+    source 11342
+    target 11346
+  ]
+  edge [
+    source 11342
+    target 6867
+  ]
+  edge [
+    source 11342
+    target 11348
+  ]
+  edge [
+    source 11342
+    target 4094
+  ]
+  edge [
+    source 11342
+    target 7895
+  ]
+  edge [
+    source 11342
+    target 10072
+  ]
+  edge [
+    source 11342
+    target 14202
+  ]
+  edge [
+    source 11342
+    target 7899
+  ]
+  edge [
+    source 11342
+    target 14204
+  ]
+  edge [
+    source 11342
+    target 7902
+  ]
+  edge [
+    source 11343
+    target 971
+  ]
+  edge [
+    source 7258
+    target 7264
+  ]
+  edge [
+    source 7258
+    target 1921
+  ]
+  edge [
+    source 7258
+    target 10146
+  ]
+  edge [
+    source 7258
+    target 1925
+  ]
+  edge [
+    source 7258
+    target 7260
+  ]
+  edge [
+    source 7258
+    target 5935
+  ]
+  edge [
+    source 7258
+    target 7894
+  ]
+  edge [
+    source 7258
+    target 14491
+  ]
+  edge [
+    source 7258
+    target 7262
+  ]
+  edge [
+    source 7258
+    target 11077
+  ]
+  edge [
+    source 7258
+    target 10072
+  ]
+  edge [
+    source 7258
+    target 7259
+  ]
+  edge [
+    source 7258
+    target 7261
+  ]
+  edge [
+    source 7258
+    target 14494
+  ]
+  edge [
+    source 7258
+    target 7263
+  ]
+  edge [
+    source 7259
+    target 1920
+  ]
+  edge [
+    source 7260
+    target 7896
+  ]
+  edge [
+    source 7260
+    target 14670
+  ]
+  edge [
+    source 7261
+    target 8180
+  ]
+  edge [
+    source 7262
+    target 8180
+  ]
+  edge [
+    source 7264
+    target 1920
+  ]
+  edge [
+    source 7265
+    target 14498
+  ]
+  edge [
+    source 7265
+    target 14204
+  ]
+  edge [
+    source 7265
+    target 7898
+  ]
+  edge [
+    source 14269
+    target 6867
+  ]
+  edge [
+    source 3697
+    target 14482
+  ]
+  edge [
+    source 3697
+    target 3698
+  ]
+  edge [
+    source 5260
+    target 10146
+  ]
+  edge [
+    source 5260
+    target 14486
+  ]
+  edge [
+    source 5261
+    target 6867
+  ]
+  edge [
+    source 5262
+    target 14169
+  ]
+  edge [
+    source 5262
+    target 11077
+  ]
+  edge [
+    source 14479
+    target 6867
+  ]
+  edge [
+    source 14479
+    target 11077
+  ]
+  edge [
+    source 14480
+    target 1920
+  ]
+  edge [
+    source 14480
+    target 6062
+  ]
+  edge [
+    source 14481
+    target 3497
+  ]
+  edge [
+    source 14481
+    target 11077
+  ]
+  edge [
+    source 14481
+    target 14481
+  ]
+  edge [
+    source 14482
+    target 11077
+  ]
+  edge [
+    source 14482
+    target 6374
+  ]
+  edge [
+    source 14482
+    target 4093
+  ]
+  edge [
+    source 14483
+    target 1920
+  ]
+  edge [
+    source 14483
+    target 11196
+  ]
+  edge [
+    source 14483
+    target 11077
+  ]
+  edge [
+    source 14483
+    target 4093
+  ]
+  edge [
+    source 14484
+    target 4288
+  ]
+  edge [
+    source 14484
+    target 11077
+  ]
+  edge [
+    source 14485
+    target 1920
+  ]
+  edge [
+    source 14485
+    target 11077
+  ]
+  edge [
+    source 14485
+    target 11078
+  ]
+  edge [
+    source 14485
+    target 971
+  ]
+  edge [
+    source 14485
+    target 14491
+  ]
+  edge [
+    source 14486
+    target 8180
+  ]
+  edge [
+    source 14486
+    target 11077
+  ]
+  edge [
+    source 14487
+    target 11077
+  ]
+  edge [
+    source 14488
+    target 11077
+  ]
+  edge [
+    source 14489
+    target 11077
+  ]
+  edge [
+    source 14491
+    target 11077
+  ]
+  edge [
+    source 14491
+    target 6374
+  ]
+  edge [
+    source 14491
+    target 5935
+  ]
+  edge [
+    source 14491
+    target 6867
+  ]
+  edge [
+    source 14491
+    target 7894
+  ]
+  edge [
+    source 14491
+    target 10072
+  ]
+  edge [
+    source 14491
+    target 14169
+  ]
+  edge [
+    source 14492
+    target 6867
+  ]
+  edge [
+    source 14492
+    target 11077
+  ]
+  edge [
+    source 14493
+    target 6956
+  ]
+  edge [
+    source 14493
+    target 11077
+  ]
+  edge [
+    source 14494
+    target 4289
+  ]
+  edge [
+    source 14494
+    target 11077
+  ]
+  edge [
+    source 14495
+    target 11077
+  ]
+  edge [
+    source 14495
+    target 7894
+  ]
+  edge [
+    source 14496
+    target 1920
+  ]
+  edge [
+    source 14496
+    target 8180
+  ]
+  edge [
+    source 14496
+    target 11077
+  ]
+  edge [
+    source 14496
+    target 6062
+  ]
+  edge [
+    source 14497
+    target 11196
+  ]
+  edge [
+    source 14497
+    target 11077
+  ]
+  edge [
+    source 14498
+    target 1920
+  ]
+  edge [
+    source 14498
+    target 10072
+  ]
+  edge [
+    source 14498
+    target 11077
+  ]
+  edge [
+    source 14499
+    target 1920
+  ]
+  edge [
+    source 14499
+    target 10146
+  ]
+  edge [
+    source 14499
+    target 11077
+  ]
+  edge [
+    source 14499
+    target 8181
+  ]
+  edge [
+    source 14500
+    target 11077
+  ]
+  edge [
+    source 14500
+    target 6062
+  ]
+  edge [
+    source 14501
+    target 4290
+  ]
+  edge [
+    source 14501
+    target 11196
+  ]
+  edge [
+    source 14501
+    target 11077
+  ]
+  edge [
+    source 14501
+    target 6062
+  ]
+  edge [
+    source 13998
+    target 10146
+  ]
+  edge [
+    source 13998
+    target 7894
+  ]
+  edge [
+    source 4288
+    target 4289
+  ]
+  edge [
+    source 4288
+    target 6062
+  ]
+  edge [
+    source 4289
+    target 11079
+  ]
+  edge [
+    source 4290
+    target 11077
+  ]
+  edge [
+    source 4291
+    target 6064
+  ]
+  edge [
+    source 4291
+    target 6062
+  ]
+  edge [
+    source 14027
+    target 971
+  ]
+  edge [
+    source 6867
+    target 3328
+  ]
+  edge [
+    source 6867
+    target 6870
+  ]
+  edge [
+    source 6867
+    target 14736
+  ]
+  edge [
+    source 6867
+    target 6872
+  ]
+  edge [
+    source 6867
+    target 14231
+  ]
+  edge [
+    source 6867
+    target 10146
+  ]
+  edge [
+    source 6867
+    target 10075
+  ]
+  edge [
+    source 6867
+    target 11197
+  ]
+  edge [
+    source 6867
+    target 11198
+  ]
+  edge [
+    source 6867
+    target 971
+  ]
+  edge [
+    source 6867
+    target 979
+  ]
+  edge [
+    source 6867
+    target 6868
+  ]
+  edge [
+    source 6867
+    target 6869
+  ]
+  edge [
+    source 6867
+    target 7894
+  ]
+  edge [
+    source 6867
+    target 6871
+  ]
+  edge [
+    source 6867
+    target 10072
+  ]
+  edge [
+    source 6867
+    target 6873
+  ]
+  edge [
+    source 6867
+    target 6874
+  ]
+  edge [
+    source 6867
+    target 6875
+  ]
+  edge [
+    source 6867
+    target 14574
+  ]
+  edge [
+    source 6867
+    target 4093
+  ]
+  edge [
+    source 6869
+    target 11077
+  ]
+  edge [
+    source 7894
+    target 11077
+  ]
+  edge [
+    source 7894
+    target 5941
+  ]
+  edge [
+    source 7894
+    target 14204
+  ]
+  edge [
+    source 7894
+    target 7901
+  ]
+  edge [
+    source 6871
+    target 4093
+  ]
+  edge [
+    source 6872
+    target 11196
+  ]
+  edge [
+    source 7897
+    target 10072
+  ]
+  edge [
+    source 6874
+    target 11077
+  ]
+  edge [
+    source 7900
+    target 10072
+  ]
+  edge [
+    source 7900
+    target 6374
+  ]
+  edge [
+    source 10278
+    target 14670
+  ]
+  edge [
+    source 6374
+    target 3328
+  ]
+  edge [
+    source 6374
+    target 10146
+  ]
+  edge [
+    source 6374
+    target 6375
+  ]
+  edge [
+    source 6374
+    target 971
+  ]
+  edge [
+    source 6374
+    target 7898
+  ]
+  edge [
+    source 6374
+    target 10074
+  ]
+  edge [
+    source 3328
+    target 6956
+  ]
+  edge [
+    source 3328
+    target 14169
+  ]
+  edge [
+    source 3328
+    target 4093
+  ]
+  edge [
+    source 6870
+    target 6956
+  ]
+  edge [
+    source 7895
+    target 10146
+  ]
+  edge [
+    source 5938
+    target 971
+  ]
+  edge [
+    source 5938
+    target 5935
+  ]
+  edge [
+    source 6959
+    target 6956
+  ]
+  edge [
+    source 6959
+    target 5935
+  ]
+  edge [
+    source 5936
+    target 971
+  ]
+  edge [
+    source 7899
+    target 5935
+  ]
+  edge [
+    source 6961
+    target 14204
+  ]
+  edge [
+    source 6956
+    target 10146
+  ]
+  edge [
+    source 6956
+    target 4093
+  ]
+  edge [
+    source 6956
+    target 6957
+  ]
+  edge [
+    source 6956
+    target 6958
+  ]
+  edge [
+    source 6956
+    target 6960
+  ]
+  edge [
+    source 6956
+    target 6962
+  ]
+  edge [
+    source 6957
+    target 4093
+  ]
+  edge [
+    source 6958
+    target 11077
+  ]
+  edge [
+    source 5935
+    target 10147
+  ]
+  edge [
+    source 5935
+    target 11077
+  ]
+  edge [
+    source 5935
+    target 14670
+  ]
+  edge [
+    source 5935
+    target 5939
+  ]
+  edge [
+    source 5935
+    target 5942
+  ]
+  edge [
+    source 5935
+    target 14169
+  ]
+  edge [
+    source 5935
+    target 14204
+  ]
+  edge [
+    source 5935
+    target 4095
+  ]
+  edge [
+    source 6960
+    target 11196
+  ]
+  edge [
+    source 5937
+    target 11077
+  ]
+  edge [
+    source 5939
+    target 971
+  ]
+  edge [
+    source 5940
+    target 971
+  ]
+  edge [
+    source 5942
+    target 971
+  ]
+  edge [
+    source 11077
+    target 1924
+  ]
+  edge [
+    source 11077
+    target 3499
+  ]
+  edge [
+    source 11077
+    target 10146
+  ]
+  edge [
+    source 11077
+    target 11077
+  ]
+  edge [
+    source 11077
+    target 11079
+  ]
+  edge [
+    source 11077
+    target 14670
+  ]
+  edge [
+    source 11077
+    target 5263
+  ]
+  edge [
+    source 11077
+    target 10075
+  ]
+  edge [
+    source 11077
+    target 8180
+  ]
+  edge [
+    source 14670
+    target 971
+  ]
+  edge [
+    source 14670
+    target 5263
+  ]
+  edge [
+    source 14672
+    target 971
+  ]
+  edge [
+    source 14674
+    target 971
+  ]
+  edge [
+    source 10072
+    target 14204
+  ]
+  edge [
+    source 10072
+    target 11196
+  ]
+  edge [
+    source 10072
+    target 10146
+  ]
+  edge [
+    source 10072
+    target 10074
+  ]
+  edge [
+    source 14169
+    target 10146
+  ]
+  edge [
+    source 14202
+    target 971
+  ]
+  edge [
+    source 14204
+    target 4093
+  ]
+  edge [
+    source 1920
+    target 1921
+  ]
+  edge [
+    source 1920
+    target 1922
+  ]
+  edge [
+    source 1920
+    target 1923
+  ]
+  edge [
+    source 1920
+    target 1924
+  ]
+  edge [
+    source 1920
+    target 1926
+  ]
+  edge [
+    source 1920
+    target 6066
+  ]
+  edge [
+    source 1920
+    target 8181
+  ]
+  edge [
+    source 1922
+    target 6062
+  ]
+  edge [
+    source 1923
+    target 6062
+  ]
+  edge [
+    source 1925
+    target 8180
+  ]
+  edge [
+    source 1926
+    target 6062
+  ]
+  edge [
+    source 3497
+    target 3497
+  ]
+  edge [
+    source 3497
+    target 3498
+  ]
+  edge [
+    source 3497
+    target 3499
+  ]
+  edge [
+    source 3497
+    target 3500
+  ]
+  edge [
+    source 6062
+    target 6064
+  ]
+  edge [
+    source 6062
+    target 6062
+  ]
+  edge [
+    source 6062
+    target 6063
+  ]
+  edge [
+    source 6062
+    target 6065
+  ]
+  edge [
+    source 6062
+    target 6066
+  ]
+  edge [
+    source 11196
+    target 11200
+  ]
+  edge [
+    source 11196
+    target 11199
+  ]
+  edge [
+    source 11197
+    target 4093
+  ]
+  edge [
+    source 971
+    target 978
+  ]
+  edge [
+    source 971
+    target 973
+  ]
+  edge [
+    source 971
+    target 977
+  ]
+  edge [
+    source 971
+    target 980
+  ]
+  edge [
+    source 4093
+    target 4095
+  ]
+]

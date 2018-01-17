@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/scm/svn/graph_sampling/!svn/ver/1/convertToClause
+END
+convert_citations_to_mln_format.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/scm/svn/graph_sampling/!svn/ver/1/convertToClause/convert_citations_to_mln_format.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scm/svn/graph_sampling/!svn/ver/1/convertToClause/__init__.py
+END
+convertGMLToClause.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/scm/svn/graph_sampling/!svn/ver/1/convertToClause/convertGMLToClause.py
+END

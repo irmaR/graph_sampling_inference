@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/scm/svn/graph_sampling/!svn/ver/55/convertCSVToGML
+END
+convertFacebook_gpickle.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/scm/svn/graph_sampling/!svn/ver/55/convertCSVToGML/convertFacebook_gpickle.py
+END
+Facebook_Convert.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/scm/svn/graph_sampling/!svn/ver/49/convertCSVToGML/Facebook_Convert.py
+END
+WEBKbCornellConvert.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/scm/svn/graph_sampling/!svn/ver/1/convertCSVToGML/WEBKbCornellConvert.py
+END
+IMDBConvert.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/scm/svn/graph_sampling/!svn/ver/1/convertCSVToGML/IMDBConvert.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scm/svn/graph_sampling/!svn/ver/1/convertCSVToGML/__init__.py
+END
+Simpler_Wbkb_Convert.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/scm/svn/graph_sampling/!svn/ver/1/convertCSVToGML/Simpler_Wbkb_Convert.py
+END
+convert_twitter.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/scm/svn/graph_sampling/!svn/ver/1/convertCSVToGML/convert_twitter.py
+END
+convert_amazon.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scm/svn/graph_sampling/!svn/ver/1/convertCSVToGML/convert_amazon.py
+END
+convert_enron_mails.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/scm/svn/graph_sampling/!svn/ver/1/convertCSVToGML/convert_enron_mails.py
+END
