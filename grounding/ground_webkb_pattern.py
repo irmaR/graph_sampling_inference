@@ -27,6 +27,7 @@ def write_patterns(ground_patterns,path_to_files,counter_offset,output):
         shutil.copy(os.path.join(path_to_files,'indices.info'),os.path.join(output_path,'indices.info'))
         shutil.copy(os.path.join(path_to_files,'rootNode.info'),os.path.join(output_path,'rootNode.info'))
         shutil.copy(os.path.join(path_to_files,'startNodeId.info'),os.path.join(output_path,'startNodeId.info'))
+        print path_to_files
         if os.path.isfile(os.path.join(path_to_files,'equivalence.info')):
             shutil.copy(os.path.join(path_to_files, 'equivalence.info'), os.path.join(output_path, 'equivalence.info'))
 
@@ -34,15 +35,15 @@ def write_patterns(ground_patterns,path_to_files,counter_offset,output):
 
 
 if __name__ == '__main__':
-    data='/home/irma/work/DATA/DATA/WEBKB/folds/fold1-train.gpickle'
-    pattern_path='/home/irma/work/DATA/DATA/WEBKB/experiments_inference/page_class/General_patterns/pattern1/'
-    output='/home/irma/work/DATA/DATA/WEBKB/experiments_inference/page_class/PATTERNS/'
-    general_path_file='/home/irma/work/DATA/DATA/WEBKB/experiments_inference/page_class/patterns.info'
+    data='/home/irma/work/DATA/INFERENCE_DATA/WEBKB/folds/fold1-train.gpickle'
+    pattern_path='/home/irma/work/DATA/INFERENCE_DATA/WEBKB/experiments_inference/page_class/General_patterns/pattern2/'
+    output='/home/irma/work/DATA/INFERENCE_DATA/WEBKB/experiments_inference/page_class/PATTERNS/'
+    general_path_file='/home/irma/work/DATA/INFERENCE_DATA/WEBKB/experiments_inference/page_class/patterns.info'
     data_graph=nx.read_gpickle(data)
     pattern=nx.read_gml(os.path.join(pattern_path,'pattern.gml'))
     groundings=an.get_all_possible_values(data_graph, 'word')
-    ground_patterns=ground_pattern(pattern, groundings, [4,6])
-    write_patterns(ground_patterns,pattern_path,2,output)
+    ground_patterns=ground_pattern(pattern, groundings, [3])
+    write_patterns(ground_patterns,pattern_path,53,output)
     #write file with all the patterns
     dirs=os.listdir(output)
     dirs.sort(key=lambda f: int(filter(str.isdigit, f)))
