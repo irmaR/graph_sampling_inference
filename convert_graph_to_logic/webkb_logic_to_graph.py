@@ -78,7 +78,8 @@ def get_graph(pages,words,pclasses,links,prolog_output_file):
     distinct_words=[]
     id=0
     for p in pages:
-        D.add_node(id,predicate='page',label='page: '+p,value=p,name=p,id=id)
+        v=str(pages[p])
+        D.add_node(id,predicate='page',label='page: '+v,value=v,name=v,id=id)
         page_to_node_id[pages[p]] = id
         id = id + 1
 
@@ -191,7 +192,9 @@ def parse_file(file_path,prolog_out_file):
         words_hashed[page_dict[l]]=word_dict[l]
 
     output_graph=get_graph(page_dict,words_hashed,page_class_hashed,links_hashed,prolog_out_file)
-    # for n1 in output_graph.nodes():
+    for n1 in output_graph.nodes():
+        if output_graph.node[n1]['predicate']=="page":
+            print output_graph.node[n1]
     #     for n2 in output_graph.nodes():
     #         if output_graph.node[n1]['predicate'] == output_graph.node[n2]['predicate']:
     #             if output_graph.node[n1]['predicate'] == 'linked':

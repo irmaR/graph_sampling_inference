@@ -41,8 +41,6 @@ def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalenc
            output_dict[key]=grounding_dictionary[k]
        else:
            output_dict[key]+=grounding_dictionary[k]
-   for k in output_dict.keys():
-     print k,output_dict[k]
    return output_dict
 
 def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,max_time,pattern_equivalences):
@@ -102,6 +100,8 @@ def generate_csv_exact_counts(data_graph,target_graph,target_constant,target_att
         else:
             nr_target=0
         dictionary_target_counts[key] = nr_target
+    #for k in pattern_groundings[0]:
+    #    print k,pattern_groundings[0][k]
     with open(csvfile, 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
