@@ -89,10 +89,14 @@ if __name__ == '__main__':
         if not os.path.isdir(output):
             os.makedirs(output)
 
-        output_train_csv=os.path.join(args.o,args.e,'train.csv')
-        output_test_csv = os.path.join(args.o, args.e, 'test.csv')
-        time_dict_train_csv=os.path.join(args.o,args.e,'time_dict_train.csv')
-        time_dict_test_csv=os.path.join(args.o, args.e, 'time_dict_test.csv')
+        if args.e=="exact":
+            experiment="exact"
+        else:
+            experiment="furer_"+str(args.max_time)
+        output_train_csv=os.path.join(args.o,experiment,'train.csv')
+        output_test_csv = os.path.join(args.o, experiment, 'test.csv')
+        time_dict_train_csv=os.path.join(args.o,experiment,'time_dict_train.csv')
+        time_dict_test_csv=os.path.join(args.o, experiment, 'time_dict_test.csv')
 
         pattern_path=args.p
         patterns,OBDPatterns,root_nodes_patterns,indices,pattern_equivalence=get_pattern_infos(pattern_path)

@@ -44,7 +44,7 @@ if __name__ == '__main__':
             if not "pattern" in dir:
                 continue
             p=os.path.join(patterns_path,dir)
-            o=os.path.join(results_path,e,dir)
+            o=os.path.join(results_path,dir)
             f.write(train+","+test+","+o+","+e+","+p+","+const+","+attr+","+rT+","+str(sT)+","+str(max_time)+"\n")
 
 
