@@ -23,7 +23,7 @@ if __name__ == '__main__':
     const=args.const
     attr=args.attr
     rT=args.rT
-    sT=args.const
+    sT=args.sT
     max_time=args.max_time
 
     #patterns_path="/home/irma/work/DATA/DATA/WEBKB/experiments_inference/page_class/PATTERNS/"
