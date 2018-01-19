@@ -32,6 +32,8 @@ if __name__ == '__main__':
     parser.add_argument('-o', help='output')
     args = parser.parse_args()
     path_to_results=args.p
+    if not os.path.isdir(path_to_results):
+        os.makedirs(path_to_results)
     csvs_to_merge_train=[]
     csvs_to_merge_test = []
     for dir in os.listdir(path_to_results):
