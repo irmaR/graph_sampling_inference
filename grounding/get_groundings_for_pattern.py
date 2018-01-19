@@ -91,7 +91,7 @@ if __name__ == '__main__':
         else:
             experiment="furer_"+str(args.max_time)
 
-        output = os.path.join(args.o, args.e)
+        output = os.path.join(args.o, experiment)
         if not os.path.isdir(output):
             os.makedirs(output)
 
