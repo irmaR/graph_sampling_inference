@@ -2,7 +2,7 @@ from sklearn.linear_model import LogisticRegression
 import pandas as pd
 import pylab as pl
 from sklearn.metrics import roc_auc_score
-import os
+import os,argparse
 
 def train_logistic_regression(train_data_csv):
     dataset = pd.read_csv(train_data_csv)
@@ -34,9 +34,13 @@ def predict_logistic_regression(test_data,model,output_file):
         f.write(str(roc))
 
 if __name__ == '__main__':
-    #train_logistic_regression('/home/irma/work/DATA/DATA/yeast/exact_train.csv')
-    train_data='/home/irma/work/DATA/DATA/WEBKB/experiments_inference/page_class/RESULTS/exact/train.csv'
-    test_data='/home/irma/work/DATA/DATA/WEBKB/experiments_inference/page_class/RESULTS/furer/test.csv'
-    output='/home/irma/work/DATA/DATA/WEBKB/experiments_inference/page_class/RESULTS/exact/'
+    parser = argparse.ArgumentParser(description='Run exhaustive approach')
+    parser.add_argument('-train', help='path to train gpickle')
+    parser.add_argument('-test', help='path to test gpickle')
+    parser.add_argument('-o', help='output')
+    args = parser.parse_args()
+    train_data=args.train
+    test_data=args.test
+    output=args.o
     model=train_logistic_regression(train_data)
     predict_logistic_regression(test_data, model,output)
