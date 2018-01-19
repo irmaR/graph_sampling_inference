@@ -1,5 +1,5 @@
 import pandas as pd
-import os
+import os,argparse
 
 def merge_csvs(csvs_to_merge,out):
     dfs = []
@@ -26,9 +26,17 @@ def merge_csvs(csvs_to_merge,out):
 
 
 if __name__ == '__main__':
-    path_to_results="/home/irma/work/DATA/INFERENCE_DATA/WEBKB/experiments_inference/page_class/RESULTS/"
-    csvs_to_merge=[]
+    parser = argparse.ArgumentParser(description='Run exhaustive approach')
+    parser.add_argument('-p', help='path to train gpickle')
+    parser.add_argument('-e', help='path to train gpickle')
+    parser.add_argument('-o', help='output')
+    args = parser.parse_args()
+    path_to_results=args.p
+    csvs_to_merge_train=[]
+    csvs_to_merge_test = []
     for dir in os.listdir(path_to_results):
         if "pattern" in dir:
-            csvs_to_merge.append(os.path.join(path_to_results,dir,"exact","train.csv"))
-    merge_csvs(csvs_to_merge,"/home/irma/work/DATA/INFERENCE_DATA/WEBKB/experiments_inference/page_class/RESULTS/merged_test.csv")
+            csvs_to_merge_train.append(os.path.join(path_to_results,dir,args.e,"train.csv"))
+            csvs_to_merge_test.append(os.path.join(path_to_results, dir, args.e,"test.csv"))
+    merge_csvs(csvs_to_merge_train, os.path.join(args.o, "merged_train.csv"))
+    merge_csvs(csvs_to_merge_test,os.path.join(args.o,"merged_test.csv"))
