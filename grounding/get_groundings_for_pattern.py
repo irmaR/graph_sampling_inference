@@ -85,16 +85,18 @@ if __name__ == '__main__':
         test_data = nx.read_gpickle(args.test)
         print "Test data loaded ..."
 
-        output=os.path.join(args.o,args.e)
-        if not os.path.isdir(output):
-            os.makedirs(output)
 
         if args.e=="exact":
             experiment="exact"
         else:
             experiment="furer_"+str(args.max_time)
+
+        output = os.path.join(args.o, args.e)
+        if not os.path.isdir(output):
+            os.makedirs(output)
+
         output_train_csv=os.path.join(args.o,experiment,'train.csv')
-        output_test_csv = os.path.join(args.o, experiment, 'test.csv')
+        output_test_csv = os.path.join(args.o,experiment, 'test.csv')
         time_dict_train_csv=os.path.join(args.o,experiment,'time_dict_train.csv')
         time_dict_test_csv=os.path.join(args.o, experiment, 'time_dict_test.csv')
 
