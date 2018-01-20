@@ -35,8 +35,8 @@ def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalenc
        else:
            output_dict[key]+=grounding_dictionary[k]
    print "Size dict: ",len(output_dict)
-   for k in output_dict:
-       print k,output_dict[k]
+   #for k in output_dict:
+   #    print k,output_dict[k]
    return output_dict
 
 def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,time,pattern_equivalences,pattern_non_equivalences):
