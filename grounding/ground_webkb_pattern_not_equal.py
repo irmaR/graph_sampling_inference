@@ -5,12 +5,16 @@ import shutil
 
 def ground_pattern(pattern,groundings,node_ids):
     patterns=[]
-    for g in groundings:
-       pTemp=pattern.copy()
-       for n in node_ids:
-           pTemp.node[n]['valueinpattern']=1
-           pTemp.node[n]['value'] = g
-       patterns.append(pTemp)
+    for g1 in groundings:
+       for g2 in groundings:
+           if g1==g2:
+               continue
+           pTemp=pattern.copy()
+           pTemp.node[node_ids[0]]['valueinpattern']=1
+           pTemp.node[node_ids[0]]['value'] = g1
+           pTemp.node[node_ids[1]]['valueinpattern']=1
+           pTemp.node[node_ids[1]]['value'] = g2
+           patterns.append(pTemp)
     return patterns
 
 def write_patterns(ground_patterns,path_to_files,counter_offset,output):
@@ -42,7 +46,7 @@ if __name__ == '__main__':
     data_graph=nx.read_gpickle(data)
     pattern=nx.read_gml(os.path.join(pattern_path,'pattern.gml'))
     groundings=an.get_all_possible_values(data_graph, 'word')
-    ground_patterns=ground_pattern(pattern, groundings, [5,8])
+    ground_patterns=ground_pattern(pattern, groundings, [4,6])
     write_patterns(ground_patterns,pattern_path,52,output)
     #write file with all the patterns
     dirs=os.listdir(output)

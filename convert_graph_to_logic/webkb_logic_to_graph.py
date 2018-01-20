@@ -212,9 +212,9 @@ def parse_file(file_path,prolog_out_file):
 
 
 if __name__ == '__main__':
-   path_to_data='/home/irma/work/DATA/DATA/WEBKB/folds/fold1-train.db'
-   output = '/home/irma/work/DATA/DATA/WEBKB/folds/fold1-train.gpickle'
-   prolog_out_file='/home/irma/work/DATA/DATA/WEBKB/folds/fold1-train.pl'
+   path_to_data='/home/irma/work/DATA/INFERENCE_DATA/WEBKB/folds/fold1-train.db'
+   output = '/home/irma/work/DATA/INFERENCE_DATA/WEBKB/folds/fold1-train.gpickle'
+   prolog_out_file='/home/irma/work/DATA/INFERENCE_DATA/WEBKB/folds/fold1-train.pl'
    graph=parse_file(path_to_data,prolog_out_file)
    nx.write_gpickle(graph,output)
    #o=get_all_pages_to_classes(path_to_data)

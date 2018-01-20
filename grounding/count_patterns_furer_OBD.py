@@ -24,10 +24,10 @@ def generate_monitoring_marks(time_interval_in_seconds,max_time_in_seconds):
         counter=counter+time_interval_in_seconds
     return marks
 
-def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalences):
+def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalences,pattern_non_equivalences):
    output_dict={}
    for k in grounding_dictionary.keys():
-       if pattern_equivalences!=None and not satisfied_equivalences(k,pattern_equivalences):
+       if not satisfied_equivalences(k,pattern_equivalences) and not satisfied_non_equivalence(k,pattern_non_equivalences):
            continue
        key=(k[ind1][1],k[ind2][1])
        if not key in output_dict:
@@ -35,9 +35,11 @@ def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalenc
        else:
            output_dict[key]+=grounding_dictionary[k]
    print "Size dict: ",len(output_dict)
+   for k in output_dict:
+       print k,output_dict[k]
    return output_dict
 
-def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,time,pattern_equivalences):
+def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,time,pattern_equivalences,pattern_non_equivalences):
     Plist = [item for sublist in OBD for item in sublist]
     indices=[]
     for b in binding_indices:
@@ -52,8 +54,18 @@ def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,time,pat
             for eq1 in eq:
                 ar.append(Plist.index(eq1))
             patt_equiv_indices.append(ar)
+
+    if pattern_non_equivalences==None:
+        patt_non_equiv_indices=None
+    else:
+        patt_non_equiv_indices = []
+        for eq in pattern_non_equivalences:
+            ar=[]
+            for eq1 in eq:
+                ar.append(Plist.index(eq1))
+                patt_non_equiv_indices.append(ar)
     dictionary = furer_OBD(pattern, data_graph, OBD, root_node,time)
-    return count_combinations_arity_2(dictionary, indices[0], indices[1],patt_equiv_indices)
+    return count_combinations_arity_2(dictionary, indices[0], indices[1],patt_equiv_indices,patt_non_equiv_indices)
 
 
 def ground_the_target(data_graph,target,OBD,root_node,binding_indices):
@@ -61,10 +73,8 @@ def ground_the_target(data_graph,target,OBD,root_node,binding_indices):
     indices=[]
     for b in binding_indices:
         indices.append(Plist.index(b))
-    for d in target.nodes():
-        print d,target.node[d]
     dictionary = count_exact_patterns.exact_counting_no_time_limit(target, data_graph, OBD, root_node)
-    return count_combinations_arity_2(dictionary, indices[0], indices[1],None)
+    return count_combinations_arity_2(dictionary, indices[0], indices[1],None,None)
 
 
 def get_time_for_exact(patterns,time_dict):
@@ -82,12 +92,22 @@ def get_time_for_exact(patterns,time_dict):
     return out
 
 def satisfied_equivalences(grounding,equivalences):
+    if equivalences==None:
+        return True
     for eq in equivalences:
         if grounding[eq[0]][1]!=grounding[eq[1]][1]:
             return False
     return True
 
-def generate_csv_furerOBD_count(data_graph,target_graph,target_constant,target_attr,OBDTarget,root_node_target,patterns,OBDPatterns,indices,root_nodes_patterns,pattern_equivalence,csvfile,fieldnames,time_dict,runtime):
+def satisfied_non_equivalence(grounding,non_equivalences):
+    if non_equivalences==None:
+        return True
+    for eq in non_equivalences:
+        if grounding[eq[0]][1]==grounding[eq[1]][1]:
+            return False
+    return True
+
+def generate_csv_furerOBD_count(data_graph,target_graph,target_constant,target_attr,OBDTarget,root_node_target,patterns,OBDPatterns,indices,root_nodes_patterns,pattern_equivalence,non_equivalences,csvfile,fieldnames,time_dict,runtime):
     tg = gtp.find_all_groundings_of_predicates(data_graph, target_attr, target_constant)
     # for each ground target, ground all patterns and perfom counting, output a csv row
     dictionary_target_counts = {}
@@ -107,7 +127,7 @@ def generate_csv_furerOBD_count(data_graph,target_graph,target_constant,target_a
         #    pattern_groundings.append({})
         #    print "Runtime not good: ",runtime,furer_max_time
         #    continue
-        pattern_groundings.append(ground_the_pattern(data_graph, pattern, OBD, root_node, indices,runtime,pattern_equivalence[counter]))
+        pattern_groundings.append(ground_the_pattern(data_graph, pattern, OBD, root_node, indices,runtime,pattern_equivalence[counter],non_equivalences[counter]))
         counter+=1
     target_counts = ground_the_target(data_graph, target_graph, OBDTarget, root_node_target, [1, 2])
     print "All patterns counted"

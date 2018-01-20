@@ -23,18 +23,27 @@ def generate_monitoring_marks(time_interval_in_seconds,max_time_in_seconds):
     return marks
 
 def satisfied_equivalences(grounding,equivalences):
+    if equivalences==None:
+        return True
     for eq in equivalences:
         if grounding[eq[0]][1]!=grounding[eq[1]][1]:
             return False
     return True
 
+def satisfied_non_equivalence(grounding,non_equivalences):
+    if non_equivalences==None:
+        return True
+    for eq in non_equivalences:
+        if grounding[eq[0]][1]==grounding[eq[1]][1]:
+            return False
+    return True
 
 
-def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalences):
+def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalences,non_equivalences):
    output_dict={}
    for k in grounding_dictionary.keys():
        #check first if equivalences hold
-       if pattern_equivalences!=None and not satisfied_equivalences(k,pattern_equivalences):
+       if not satisfied_equivalences(k,pattern_equivalences) and not satisfied_non_equivalence(k,non_equivalences):
            continue
        key=(k[ind1][1],k[ind2][1])
        if not key in output_dict:
@@ -43,7 +52,7 @@ def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalenc
            output_dict[key]+=grounding_dictionary[k]
    return output_dict
 
-def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,max_time,pattern_equivalences):
+def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,max_time,pattern_equivalences, non_equivalences):
     Plist = [item for sublist in OBD for item in sublist]
     indices=[]
     for b in binding_indices:
@@ -58,8 +67,18 @@ def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,max_time
                 ar.append(Plist.index(eq1))
             patt_equiv_indices.append(ar)
 
+    if non_equivalences==None:
+        patt_non_equiv_indices=None
+    else:
+        patt_non_equiv_indices = []
+        for eq in non_equivalences:
+            ar=[]
+            for eq1 in eq:
+                ar.append(Plist.index(eq1))
+                patt_non_equiv_indices.append(ar)
+
     dictionary = exact_counting(pattern, data_graph, OBD, root_node,max_time)
-    return count_combinations_arity_2(dictionary, indices[0], indices[1],patt_equiv_indices)
+    return count_combinations_arity_2(dictionary, indices[0], indices[1],patt_equiv_indices,patt_non_equiv_indices)
 
 
 def ground_the_target(data_graph,target,OBD,root_node,binding_indices):
@@ -68,9 +87,9 @@ def ground_the_target(data_graph,target,OBD,root_node,binding_indices):
     for b in binding_indices:
         indices.append(Plist.index(b))
     dictionary = exact_counting_no_time_limit(target, data_graph, OBD, root_node)
-    return count_combinations_arity_2(dictionary, indices[0], indices[1],None)
+    return count_combinations_arity_2(dictionary, indices[0], indices[1],None,None)
 
-def generate_csv_exact_counts(data_graph,target_graph,target_constant,target_attr,OBDTarget,root_node_target,patterns,OBDPatterns,indices,root_nodes_patterns,pattern_equivalences,csvfile,fieldnames,time_dict_csv,max_time_exh):
+def generate_csv_exact_counts(data_graph,target_graph,target_constant,target_attr,OBDTarget,root_node_target,patterns,OBDPatterns,indices,root_nodes_patterns,pattern_equivalences,non_equivalence,csvfile,fieldnames,time_dict_csv,max_time_exh):
     tg = gtp.find_all_groundings_of_predicates(data_graph, target_attr, target_constant)
     print "Nr groundings for target: ",len(tg)
     #for each ground target, ground all patterns and perfom counting, output a csv row
@@ -85,7 +104,7 @@ def generate_csv_exact_counts(data_graph,target_graph,target_constant,target_att
         print "Counting pattern: ",counter+1
         print "Pattern name: ",pattern.name
         start = time.time()
-        pattern_groundings.append(ground_the_pattern(data_graph,pattern,OBD,root_node,indices,max_time_exh,pattern_equivalences[counter]))
+        pattern_groundings.append(ground_the_pattern(data_graph,pattern,OBD,root_node,indices,max_time_exh,pattern_equivalences[counter],non_equivalence[counter]))
         end = time.time()
         time_dict[pattern]=end - start
         counter += 1
