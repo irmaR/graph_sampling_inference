@@ -7,11 +7,12 @@ from grounding import count_exact_patterns as exact
 from grounding import count_patterns_furer_OBD as furer
 from grounding import inference_logistic_regression as inference
 
-def get_pattern_paths(pattern_file):
+def get_pattern_paths(pattern_folders):
     out=[]
-    with open(pattern_file,'r') as f:
-        for line in f:
-           out.append(line.rstrip())
+    for dir in os.listdir(pattern_folders):
+        if not "pattern" in dir:
+            continue
+        out.append(os.path.join(pattern_folders,dir))
     return out
 
 def get_pattern_infos(pattern_paths):
@@ -20,27 +21,29 @@ def get_pattern_infos(pattern_paths):
     root_nodes_patterns = []
     indices = []
     equiv = []
-    for p in pattern_paths:
-        pattern=nx.read_gml(os.path.join(p,'pattern.gml'))
+    non_equiv = []
+    for pattern_path in pattern_paths:
+        print pattern_path
+        pattern=nx.read_gml(os.path.join(pattern_path,'pattern.gml'))
         patterns.append(pattern)
-        with open(os.path.join(p,'startNodeId.info')) as f:
+        with open(os.path.join(pattern_path,'startNodeId.info')) as f:
             start_node=int(f.readline().rstrip())
         OBD = OBDsearch.get_heuristic4_OBD(pattern, startNode=start_node)
         OBDPatterns.append(OBD)
-        with open(os.path.join(p,'rootNode.info')) as f:
+        with open(os.path.join(pattern_path,'rootNode.info')) as f:
             root_node=f.readline().rstrip()
         root_nodes_patterns.append(root_node)
         ind=[]
-        with open(os.path.join(p,'indices.info')) as f:
+        with open(os.path.join(pattern_path,'indices.info')) as f:
             for line in f:
                 ind.append(int(line.rstrip()))
         indices.append(ind)
 
-        if not os.path.isfile(os.path.join(p,'equivalence.info')):
+        if not os.path.isfile(os.path.join(pattern_path,'equivalence.info')):
             equiv.append(None)
         else:
             indices_equiv=[]
-            with open(os.path.join(p,'equivalence.info')) as f:
+            with open(os.path.join(pattern_path,'equivalence.info')) as f:
                 for line in f:
                     a=[]
                     l=line.rstrip().split(" ")
@@ -48,8 +51,19 @@ def get_pattern_infos(pattern_paths):
                         a.append(int(elem))
                     indices_equiv.append(a)
             equiv.append(indices_equiv)
-    print "Equivalences: ",equiv
-    return patterns,OBDPatterns,root_nodes_patterns,indices,equiv
+        if not os.path.isfile(os.path.join(pattern_path,'non_equivalence.info')):
+            non_equiv.append(None)
+        else:
+            indices_equiv=[]
+            with open(os.path.join(pattern_path,'non_equivalence.info')) as f:
+                for line in f:
+                    a=[]
+                    l=line.rstrip().split(" ")
+                    for elem in l:
+                        a.append(int(elem))
+                    indices_equiv.append(a)
+            non_equiv.append(indices_equiv)
+    return patterns,OBDPatterns,root_nodes_patterns,indices,equiv,non_equiv
 
 
 
@@ -87,18 +101,24 @@ if __name__ == '__main__':
         test_data = nx.read_gpickle(args.test)
         print "Test data loaded ..."
 
-        output=os.path.join(args.o,args.e)
+        if args.e=="exact":
+            experiment="exact_"+str(args.max_time)
+        else:
+            experiment="furer_"+str(args.max_time)
+
+        output=os.path.join(args.o,experiment)
         if not os.path.isdir(output):
             os.makedirs(output)
 
-        output_train_csv=os.path.join(args.o,args.e,'train.csv')
-        output_test_csv = os.path.join(args.o, args.e, 'test.csv')
-        time_dict_train_csv=os.path.join(args.o,args.e,'time_dict_train.csv')
-        time_dict_test_csv=os.path.join(args.o, args.e, 'time_dict_test.csv')
+        output_train_csv=os.path.join(args.o,experiment,'train.csv')
+        output_test_csv = os.path.join(args.o, experiment, 'test.csv')
+        time_dict_train_csv=os.path.join(args.o,experiment,'time_dict_train.csv')
+        time_dict_test_csv=os.path.join(args.o,experiment, 'time_dict_test.csv')
 
         pattern_paths=get_pattern_paths(args.p)
-        patterns,OBDPatterns,root_nodes_patterns,indices,pattern_equivalence=get_pattern_infos(pattern_paths)
+        patterns,OBDPatterns,root_nodes_patterns,indices,pattern_equivalence,non_equivalence=get_pattern_infos(pattern_paths)
         print "Pattern equivalences: ",pattern_equivalence
+        print "Pattern non_equivalences: ", non_equivalence
         target = gtp.get_target_graph(args.const, args.attr)
         for i in target:
             print i,target.node[i]
@@ -114,20 +134,20 @@ if __name__ == '__main__':
         if args.e=="exact":
             #count train
             exact.generate_csv_exact_counts(train_data,target,args.const,args.attr, OBDTarget, root_node_target, patterns, OBDPatterns,
-                                          indices, root_nodes_patterns,pattern_equivalence, output_train_csv, fieldnames,time_dict_train_csv,args.max_time)
+                                          indices, root_nodes_patterns,pattern_equivalence,non_equivalence, output_train_csv, fieldnames,time_dict_train_csv,args.max_time)
 
             print "Training data counted ..."
 
             #count test
             exact.generate_csv_exact_counts(test_data, target,args.const,args.attr, OBDTarget, root_node_target, patterns, OBDPatterns,
-                                            indices, root_nodes_patterns,pattern_equivalence, output_test_csv, fieldnames,time_dict_test_csv,args.max_time)
+                                            indices, root_nodes_patterns,pattern_equivalence,non_equivalence, output_test_csv, fieldnames,time_dict_test_csv,args.max_time)
 
             print "Test data counted ..."
         if args.e=="furer":
             # count train
             furer.generate_csv_furerOBD_count(train_data, target, args.const, args.attr, OBDTarget, root_node_target,
                                             patterns, OBDPatterns,
-                                            indices, root_nodes_patterns, pattern_equivalence,output_train_csv, fieldnames,
+                                            indices, root_nodes_patterns, pattern_equivalence,non_equivalence,output_train_csv, fieldnames,
                                               time_train_dict,runtime)
 
             #print "Training data counted ..."
@@ -135,9 +155,8 @@ if __name__ == '__main__':
             # count test
             furer.generate_csv_furerOBD_count(test_data, target, args.const, args.attr, OBDTarget, root_node_target,
                                             patterns, OBDPatterns,
-                                            indices, root_nodes_patterns, pattern_equivalence,output_test_csv, fieldnames,
+                                            indices, root_nodes_patterns, pattern_equivalence,non_equivalence,output_test_csv, fieldnames,
                                               time_test_dict,runtime)
-
         model = inference.train_logistic_regression(output_train_csv)
         inference.predict_logistic_regression(output_test_csv, model, output)
 

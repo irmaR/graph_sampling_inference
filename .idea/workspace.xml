@@ -2,13 +2,288 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105b675c-f187-428f-8d58-509649f922d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grounding/ground_webkb_pattern_not_equal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.lock" afterPath="$PROJECT_DIR$/.metadata/.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_manipulator/.nfs00000000050b99e700000194" afterPath="$PROJECT_DIR$/graph_manipulator/.nfs00000000050b99e700000194" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_manipulator/.nfs00000000050b99e800000a23" afterPath="$PROJECT_DIR$/graph_manipulator/.nfs00000000050b99e800000a23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_manipulator/.nfs00000000050b99e900000196" afterPath="$PROJECT_DIR$/graph_manipulator/.nfs00000000050b99e900000196" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_manipulator/.nfs00000000050b99eb000001a2" afterPath="$PROJECT_DIR$/graph_manipulator/.nfs00000000050b99eb000001a2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_manipulator/.nfs00000000050b99ec00000a24" afterPath="$PROJECT_DIR$/graph_manipulator/.nfs00000000050b99ec00000a24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitor_process/.nfs0000000004ec096500000067" afterPath="$PROJECT_DIR$/monitor_process/.nfs0000000004ec096500000067" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternGenerator/.nfs0000000004c731ee0000018f" afterPath="$PROJECT_DIR$/patternGenerator/.nfs0000000004c731ee0000018f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternGenerator/.nfs0000000004c731ef0000019e" afterPath="$PROJECT_DIR$/patternGenerator/.nfs0000000004c731ef0000019e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternGenerator/.nfs0000000004c731f00000054c" afterPath="$PROJECT_DIR$/patternGenerator/.nfs0000000004c731f00000054c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternGenerator/.nfs0000000004c731f10000054d" afterPath="$PROJECT_DIR$/patternGenerator/.nfs0000000004c731f10000054d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternGenerator/.nfs0000000004c731f3000001a0" afterPath="$PROJECT_DIR$/patternGenerator/.nfs0000000004c731f3000001a0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/YEAST.gpickle" afterPath="$PROJECT_DIR$/patternSampler/YEAST.gpickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/simple_path.png" afterPath="$PROJECT_DIR$/patternSampler/simple_path.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a28126000001b3" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a28126000001b3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a28128000001b4" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a28128000001b4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a2812a00000086" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a2812a00000086" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a2812a000000d7" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a2812a000000d7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a2812c00000367" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a2812c00000367" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a2812d000000dc" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a2812d000000dc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a2812e000000dd" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a2812e000000dd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a28131000001bd" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a28131000001bd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a28132000000e7" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a28132000000e7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a2813300000091" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a2813300000091" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004a2813400000092" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004a2813400000092" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004aa855700000541" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004aa855700000541" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004aa85580000054a" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004aa85580000054a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004aa85590000018e" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004aa85590000018e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004aa855a0000018f" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004aa855a0000018f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004aa855c0000054b" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004aa855c0000054b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004aa855d0000018c" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004aa855d0000018c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004aa855e0000018d" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004aa855e0000018d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f1355f000000b8" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f1355f000000b8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f1356000000197" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f1356000000197" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f135610000006d" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f135610000006d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f135630000006e" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f135630000006e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f1356400000071" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f1356400000071" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f13564000000bf" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f13564000000bf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f1356700000075" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f1356700000075" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f13569000001ab" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f13569000001ab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f1356a00000357" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f1356a00000357" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f1356d00000360" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f1356d00000360" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f1356e000001b1" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f1356e000001b1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f1356f00000081" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f1356f00000081" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f1357100000362" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f1357100000362" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.nfs0000000004f13572000000d0" afterPath="$PROJECT_DIR$/report_results/.nfs0000000004f13572000000d0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/graph_sampling.iml" afterPath="$PROJECT_DIR$/.idea/graph_sampling.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/version.ini" afterPath="$PROJECT_DIR$/.metadata/version.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.pydevproject" afterPath="$PROJECT_DIR$/.pydevproject" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/__init__.py" afterPath="$PROJECT_DIR$/algorithms/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/exhaustive_approach_inf.py" afterPath="$PROJECT_DIR$/algorithms/exhaustive_approach_inf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/false_furer_algorithm.py" afterPath="$PROJECT_DIR$/algorithms/false_furer_algorithm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/furer_algorithm.py" afterPath="$PROJECT_DIR$/algorithms/furer_algorithm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/random_vertex_sampling.py" afterPath="$PROJECT_DIR$/algorithms/random_vertex_sampling.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertCSVToGML/Facebook_Convert.py" afterPath="$PROJECT_DIR$/convertCSVToGML/Facebook_Convert.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertCSVToGML/IMDBConvert.py" afterPath="$PROJECT_DIR$/convertCSVToGML/IMDBConvert.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertCSVToGML/Simpler_Wbkb_Convert.py" afterPath="$PROJECT_DIR$/convertCSVToGML/Simpler_Wbkb_Convert.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertCSVToGML/WEBKbCornellConvert.py" afterPath="$PROJECT_DIR$/convertCSVToGML/WEBKbCornellConvert.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertCSVToGML/__init__.py" afterPath="$PROJECT_DIR$/convertCSVToGML/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertCSVToGML/convertFacebook_gpickle.py" afterPath="$PROJECT_DIR$/convertCSVToGML/convertFacebook_gpickle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertCSVToGML/convert_amazon.py" afterPath="$PROJECT_DIR$/convertCSVToGML/convert_amazon.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertCSVToGML/convert_enron_mails.py" afterPath="$PROJECT_DIR$/convertCSVToGML/convert_enron_mails.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertCSVToGML/convert_imdb.py" afterPath="$PROJECT_DIR$/convertCSVToGML/convert_imdb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertCSVToGML/convert_twitter.py" afterPath="$PROJECT_DIR$/convertCSVToGML/convert_twitter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertToClause/__init__.py" afterPath="$PROJECT_DIR$/convertToClause/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertToClause/convertGMLToClause.py" afterPath="$PROJECT_DIR$/convertToClause/convertGMLToClause.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertToClause/convert_citations_to_mln_format.py" afterPath="$PROJECT_DIR$/convertToClause/convert_citations_to_mln_format.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/__init__.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/clause.info" afterPath="$PROJECT_DIR$/convert_graph_to_clause/clause.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/clean_FACT_files.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/clean_FACT_files.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/convert_IMDB_patterns_to_clauses.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/convert_IMDB_patterns_to_clauses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/convert_WEBKB_patterns_to_clauses.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/convert_WEBKB_patterns_to_clauses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/convert_amazon_patterns_to_clauses.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/convert_amazon_patterns_to_clauses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/convert_dblp_patterns_to_clauses.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/convert_dblp_patterns_to_clauses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/convert_enron_patterns_to_clauses.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/convert_enron_patterns_to_clauses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/convert_facebook_patterns_to_clauses.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/convert_facebook_patterns_to_clauses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/convert_yeast_patterns_to_clauses.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/convert_yeast_patterns_to_clauses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/satisfaction_dataset.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/satisfaction_dataset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_clause/yeast_dataset.py" afterPath="$PROJECT_DIR$/convert_graph_to_clause/yeast_dataset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/__init__.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/add_value_to_yeast_proteins.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/add_value_to_yeast_proteins.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/convert_amaxon.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/convert_amaxon.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/convert_dblp.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/convert_dblp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/convert_enron.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/convert_enron.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/convert_facebook.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/convert_facebook.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/convert_imdb.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/convert_imdb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/convert_new_webkb.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/convert_new_webkb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/convert_satisfaction.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/convert_satisfaction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/convert_webkb.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/convert_webkb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/convert_yeast.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/convert_yeast.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/create_Yeast_pickle.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/create_Yeast_pickle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/fix_yeast_data.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/fix_yeast_data.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_graph_to_logic/webkb_logic_to_graph.py" afterPath="$PROJECT_DIR$/convert_graph_to_logic/webkb_logic_to_graph.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dblp_network/__init__.py" afterPath="$PROJECT_DIR$/dblp_network/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dblp_network/dblp_experimenter.py" afterPath="$PROJECT_DIR$/dblp_network/dblp_experimenter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/CSV_REPORT.py" afterPath="$PROJECT_DIR$/experiments/CSV_REPORT.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/OBDsearch.py" afterPath="$PROJECT_DIR$/experiments/OBDsearch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/__init__.py" afterPath="$PROJECT_DIR$/experiments/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/are_isomorphic.py" afterPath="$PROJECT_DIR$/experiments/are_isomorphic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/check_validity.py" afterPath="$PROJECT_DIR$/experiments/check_validity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/create_new_batch.py" afterPath="$PROJECT_DIR$/experiments/create_new_batch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/data_info.py" afterPath="$PROJECT_DIR$/experiments/data_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/delete_results_for_approach_in_batch.py" afterPath="$PROJECT_DIR$/experiments/delete_results_for_approach_in_batch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/deselect_extras.py" afterPath="$PROJECT_DIR$/experiments/deselect_extras.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/exhaustive_approach.py" afterPath="$PROJECT_DIR$/experiments/exhaustive_approach.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/extract_results.py" afterPath="$PROJECT_DIR$/experiments/extract_results.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/extract_results_batch.py" afterPath="$PROJECT_DIR$/experiments/extract_results_batch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/false_furer_order_random.py" afterPath="$PROJECT_DIR$/experiments/false_furer_order_random.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/false_furer_sampling_approach.py" afterPath="$PROJECT_DIR$/experiments/false_furer_sampling_approach.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/find_pattern_with_node_label.py" afterPath="$PROJECT_DIR$/experiments/find_pattern_with_node_label.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/furer_sampling_approach.py" afterPath="$PROJECT_DIR$/experiments/furer_sampling_approach.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/furer_sampling_approach_original.py" afterPath="$PROJECT_DIR$/experiments/furer_sampling_approach_original.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/generate_commands.py" afterPath="$PROJECT_DIR$/experiments/generate_commands.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/generate_commands_files.py" afterPath="$PROJECT_DIR$/experiments/generate_commands_files.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/generate_commands_for_preselected.py" afterPath="$PROJECT_DIR$/experiments/generate_commands_for_preselected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/generate_commands_for_preselection.py" afterPath="$PROJECT_DIR$/experiments/generate_commands_for_preselection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/generate_commands_for_selected.py" afterPath="$PROJECT_DIR$/experiments/generate_commands_for_selected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/generate_commands_split_runs.py" afterPath="$PROJECT_DIR$/experiments/generate_commands_split_runs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/globals.py" afterPath="$PROJECT_DIR$/experiments/globals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/globals_backup.py" afterPath="$PROJECT_DIR$/experiments/globals_backup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/globals_parallel.py" afterPath="$PROJECT_DIR$/experiments/globals_parallel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/imb_run_full.py" afterPath="$PROJECT_DIR$/experiments/imb_run_full.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/misc.py" afterPath="$PROJECT_DIR$/experiments/misc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/obsolete_false_furer_order.py" afterPath="$PROJECT_DIR$/experiments/obsolete_false_furer_order.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/process_pattern_results.py" afterPath="$PROJECT_DIR$/experiments/process_pattern_results.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/promote_conditionally_selected_to_selected.py" afterPath="$PROJECT_DIR$/experiments/promote_conditionally_selected_to_selected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/promote_preselected_to_selected.py" afterPath="$PROJECT_DIR$/experiments/promote_preselected_to_selected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/promote_problem_selected_to_selected.py" afterPath="$PROJECT_DIR$/experiments/promote_problem_selected_to_selected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/random_vertex_sampling_approach.py" afterPath="$PROJECT_DIR$/experiments/random_vertex_sampling_approach.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/regression.py" afterPath="$PROJECT_DIR$/experiments/regression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/run_sampling.py" afterPath="$PROJECT_DIR$/experiments/run_sampling.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/sampler_general_ex.py" afterPath="$PROJECT_DIR$/experiments/sampler_general_ex.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/sampling_utils.py" afterPath="$PROJECT_DIR$/experiments/sampling_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/select_subgraph_yeast.py" afterPath="$PROJECT_DIR$/experiments/select_subgraph_yeast.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/summarize_csv.py" afterPath="$PROJECT_DIR$/experiments/summarize_csv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/utils.py" afterPath="$PROJECT_DIR$/experiments/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/utils_reporting_results.py" afterPath="$PROJECT_DIR$/experiments/utils_reporting_results.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments/webkb_run_sampling.py" afterPath="$PROJECT_DIR$/experiments/webkb_run_sampling.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_patterns/__init__.py" afterPath="$PROJECT_DIR$/generate_patterns/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_patterns/generate_initial_small_level_patterns.py" afterPath="$PROJECT_DIR$/generate_patterns/generate_initial_small_level_patterns.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_patterns/generate_patterns_from_previous_level_graphs.py" afterPath="$PROJECT_DIR$/generate_patterns/generate_patterns_from_previous_level_graphs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_patterns/generate_patterns_from_selected.py" afterPath="$PROJECT_DIR$/generate_patterns/generate_patterns_from_selected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph/__init__.py" afterPath="$PROJECT_DIR$/graph/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph/nodes.py" afterPath="$PROJECT_DIR$/graph/nodes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_creation/distImposer.py" afterPath="$PROJECT_DIR$/graph_creation/distImposer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_creation/graphcreator.py" afterPath="$PROJECT_DIR$/graph_creation/graphcreator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_creation/randomFriends.gml" afterPath="$PROJECT_DIR$/graph_creation/randomFriends.gml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_manipulator/__init__.py" afterPath="$PROJECT_DIR$/graph_manipulator/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_manipulator/graph_analyzer.py" afterPath="$PROJECT_DIR$/graph_manipulator/graph_analyzer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_manipulator/visualization.py" afterPath="$PROJECT_DIR$/graph_manipulator/visualization.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/__init__.py" afterPath="$PROJECT_DIR$/grounding/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/count_exact_patterns.py" afterPath="$PROJECT_DIR$/grounding/count_exact_patterns.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/count_groundings.py" afterPath="$PROJECT_DIR$/grounding/count_groundings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/count_patterns_furer_OBD.py" afterPath="$PROJECT_DIR$/grounding/count_patterns_furer_OBD.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/experiment_yeast.py" afterPath="$PROJECT_DIR$/grounding/experiment_yeast.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/furer_OBD_counting.py" afterPath="$PROJECT_DIR$/grounding/furer_OBD_counting.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/generate_data_file_for_SC_experiments.py" afterPath="$PROJECT_DIR$/grounding/generate_data_file_for_SC_experiments.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/get_groundings_for_pattern.py" afterPath="$PROJECT_DIR$/grounding/get_groundings_for_pattern.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/ground_target_predicate.py" afterPath="$PROJECT_DIR$/grounding/ground_target_predicate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/ground_webkb_pattern.py" afterPath="$PROJECT_DIR$/grounding/ground_webkb_pattern.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/ground_webkb_pattern_not_equal.py" afterPath="$PROJECT_DIR$/grounding/ground_webkb_pattern_not_equal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/inference_logistic_regression.py" afterPath="$PROJECT_DIR$/grounding/inference_logistic_regression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grounding/merge_csvs.py" afterPath="$PROJECT_DIR$/grounding/merge_csvs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitor_process/__init__.py" afterPath="$PROJECT_DIR$/monitor_process/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitor_process/monitor_thread.py" afterPath="$PROJECT_DIR$/monitor_process/monitor_thread.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitor_process/process_monitor.py" afterPath="$PROJECT_DIR$/monitor_process/process_monitor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networks/__init__.py" afterPath="$PROJECT_DIR$/networks/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networks/amazon_network.py" afterPath="$PROJECT_DIR$/networks/amazon_network.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networks/enron_network.py" afterPath="$PROJECT_DIR$/networks/enron_network.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networks/facebook_network.py" afterPath="$PROJECT_DIR$/networks/facebook_network.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networks/imdb_network.py" afterPath="$PROJECT_DIR$/networks/imdb_network.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networks/twitter_network.py" afterPath="$PROJECT_DIR$/networks/twitter_network.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networks/webKb_Cornell_network.py" afterPath="$PROJECT_DIR$/networks/webKb_Cornell_network.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper_plot_files/__init__.py" afterPath="$PROJECT_DIR$/paper_plot_files/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternGenerator/__init__.py" afterPath="$PROJECT_DIR$/patternGenerator/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternGenerator/generate_pattern.py" afterPath="$PROJECT_DIR$/patternGenerator/generate_pattern.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternGenerator/generator_for_experiments.py" afterPath="$PROJECT_DIR$/patternGenerator/generator_for_experiments.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternGenerator/levelPatterns.py" afterPath="$PROJECT_DIR$/patternGenerator/levelPatterns.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/OBDsearch.py" afterPath="$PROJECT_DIR$/patternSampler/OBDsearch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/YEAST_118.gpickle" afterPath="$PROJECT_DIR$/patternSampler/YEAST_118.gpickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/YEAST_140.gpickle" afterPath="$PROJECT_DIR$/patternSampler/YEAST_140.gpickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/YEAST_165.gpickle" afterPath="$PROJECT_DIR$/patternSampler/YEAST_165.gpickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/YEAST_27.gpickle" afterPath="$PROJECT_DIR$/patternSampler/YEAST_27.gpickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/YEAST_smaller.gpickle" afterPath="$PROJECT_DIR$/patternSampler/YEAST_smaller.gpickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/YEAST_smallest.gpickle" afterPath="$PROJECT_DIR$/patternSampler/YEAST_smallest.gpickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/extend_sample.py" afterPath="$PROJECT_DIR$/patternSampler/extend_sample.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/minitest.py" afterPath="$PROJECT_DIR$/patternSampler/minitest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/patternD9.gml" afterPath="$PROJECT_DIR$/patternSampler/patternD9.gml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/patternSampleNew.py" afterPath="$PROJECT_DIR$/patternSampler/patternSampleNew.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/sampler_general_ex.py" afterPath="$PROJECT_DIR$/patternSampler/sampler_general_ex.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/sampling_utils.py" afterPath="$PROJECT_DIR$/patternSampler/sampling_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patternSampler/ultimex_S1.py" afterPath="$PROJECT_DIR$/patternSampler/ultimex_S1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.~lock.fdictGENERAL_MINE.csv#" afterPath="$PROJECT_DIR$/report_results/.~lock.fdictGENERAL_MINE.csv#" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/.~lock.generalDict.csv#" afterPath="$PROJECT_DIR$/report_results/.~lock.generalDict.csv#" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/FACT_make_selected_results_csv.py" afterPath="$PROJECT_DIR$/report_results/FACT_make_selected_results_csv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/NoResults_exception.py" afterPath="$PROJECT_DIR$/report_results/NoResults_exception.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/__init__.py" afterPath="$PROJECT_DIR$/report_results/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/batch_info.py" afterPath="$PROJECT_DIR$/report_results/batch_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/check_interrupted_data_if_complete.py" afterPath="$PROJECT_DIR$/report_results/check_interrupted_data_if_complete.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/check_isomorphism_selected.py" afterPath="$PROJECT_DIR$/report_results/check_isomorphism_selected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/check_pre_selected.py" afterPath="$PROJECT_DIR$/report_results/check_pre_selected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/check_status.py" afterPath="$PROJECT_DIR$/report_results/check_status.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/count_processed_patterns.py" afterPath="$PROJECT_DIR$/report_results/count_processed_patterns.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/create_csv_batch_file.py" afterPath="$PROJECT_DIR$/report_results/create_csv_batch_file.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/delete_patterns_non_selected.py" afterPath="$PROJECT_DIR$/report_results/delete_patterns_non_selected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/delete_pickles_in_patterns_paths.py" afterPath="$PROJECT_DIR$/report_results/delete_pickles_in_patterns_paths.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/delete_result_folders.py" afterPath="$PROJECT_DIR$/report_results/delete_result_folders.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/detect_most_occurring_labels_in_selected_graphs.py" afterPath="$PROJECT_DIR$/report_results/detect_most_occurring_labels_in_selected_graphs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/directory_manager.py" afterPath="$PROJECT_DIR$/report_results/directory_manager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/estimate_processed_pattern_count.py" afterPath="$PROJECT_DIR$/report_results/estimate_processed_pattern_count.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/exhaustive_report.py" afterPath="$PROJECT_DIR$/report_results/exhaustive_report.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/false_furer_report.py" afterPath="$PROJECT_DIR$/report_results/false_furer_report.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/false_furer_report_orderings.py" afterPath="$PROJECT_DIR$/report_results/false_furer_report_orderings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/filter_batch_results.py" afterPath="$PROJECT_DIR$/report_results/filter_batch_results.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/fix_parent_specification.py" afterPath="$PROJECT_DIR$/report_results/fix_parent_specification.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/furer_report.py" afterPath="$PROJECT_DIR$/report_results/furer_report.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/generate_commands_for_reporting.py" afterPath="$PROJECT_DIR$/report_results/generate_commands_for_reporting.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/getStatistics.py" afterPath="$PROJECT_DIR$/report_results/getStatistics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/get_no_obd_patterns.py" afterPath="$PROJECT_DIR$/report_results/get_no_obd_patterns.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/get_patterns_info.py" afterPath="$PROJECT_DIR$/report_results/get_patterns_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/make_excel_files_results.py" afterPath="$PROJECT_DIR$/report_results/make_excel_files_results.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/make_selected_results_csv.py" afterPath="$PROJECT_DIR$/report_results/make_selected_results_csv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/move_non_selected_results_and_patterns.py" afterPath="$PROJECT_DIR$/report_results/move_non_selected_results_and_patterns.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/percentage_timedout.py" afterPath="$PROJECT_DIR$/report_results/percentage_timedout.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/plot_readable_format.py" afterPath="$PROJECT_DIR$/report_results/plot_readable_format.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/process_results_pattern_size.py" afterPath="$PROJECT_DIR$/report_results/process_results_pattern_size.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/random_report.py" afterPath="$PROJECT_DIR$/report_results/random_report.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/remove_file_for_results.py" afterPath="$PROJECT_DIR$/report_results/remove_file_for_results.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/report_exhaustive_approach.py" afterPath="$PROJECT_DIR$/report_results/report_exhaustive_approach.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/report_false_furer.py" afterPath="$PROJECT_DIR$/report_results/report_false_furer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/report_furer_approach.py" afterPath="$PROJECT_DIR$/report_results/report_furer_approach.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/report_random_sampling_approach.py" afterPath="$PROJECT_DIR$/report_results/report_random_sampling_approach.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/report_results.py" afterPath="$PROJECT_DIR$/report_results/report_results.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/save_as_gpickle.py" afterPath="$PROJECT_DIR$/report_results/save_as_gpickle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/scriptExtractAllInterrupted.py" afterPath="$PROJECT_DIR$/report_results/scriptExtractAllInterrupted.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_results/visualization.py" afterPath="$PROJECT_DIR$/report_results/visualization.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/__init__.py" afterPath="$PROJECT_DIR$/sampling/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/amazon_full.py" afterPath="$PROJECT_DIR$/sampling/amazon_full.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/amazon_sampling.py" afterPath="$PROJECT_DIR$/sampling/amazon_sampling.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/enron_full.py" afterPath="$PROJECT_DIR$/sampling/enron_full.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/enron_sampling.py" afterPath="$PROJECT_DIR$/sampling/enron_sampling.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/full_facebook.py" afterPath="$PROJECT_DIR$/sampling/full_facebook.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/full_imdb.py" afterPath="$PROJECT_DIR$/sampling/full_imdb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/imdb_reporting.py" afterPath="$PROJECT_DIR$/sampling/imdb_reporting.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/sampling_facebook.py" afterPath="$PROJECT_DIR$/sampling/sampling_facebook.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/webkb_full_run.py" afterPath="$PROJECT_DIR$/sampling/webkb_full_run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/webkb_sampling_script.py" afterPath="$PROJECT_DIR$/sampling/webkb_sampling_script.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/yeast_full_false_furer_rnd.py" afterPath="$PROJECT_DIR$/sampling/yeast_full_false_furer_rnd.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling_graphs/__init__.py" afterPath="$PROJECT_DIR$/sampling_graphs/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling_graphs/check_number_of_existence_of_a_node.py" afterPath="$PROJECT_DIR$/sampling_graphs/check_number_of_existence_of_a_node.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling_graphs/sample_from_graphs.py" afterPath="$PROJECT_DIR$/sampling_graphs/sample_from_graphs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/__init__.py" afterPath="$PROJECT_DIR$/scripts/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/change_to_wrongly_selected.py" afterPath="$PROJECT_DIR$/scripts/change_to_wrongly_selected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/extract_wrongly_selected.py" afterPath="$PROJECT_DIR$/scripts/extract_wrongly_selected.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeast_network/__init__.py" afterPath="$PROJECT_DIR$/yeast_network/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeast_network/yeast_experimenter.py" afterPath="$PROJECT_DIR$/yeast_network/yeast_experimenter.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +297,8 @@
       <file leaf-file-name="experiment_yeast.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grounding/experiment_yeast.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1008">
-              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="137">
+              <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -32,8 +307,8 @@
       <file leaf-file-name="get_groundings_for_pattern.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grounding/get_groundings_for_pattern.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
+            <state relative-caret-position="887">
+              <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,7 +317,7 @@
       <file leaf-file-name="ground_webkb_pattern.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grounding/ground_webkb_pattern.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="630">
               <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding />
             </state>
@@ -52,8 +327,8 @@
       <file leaf-file-name="count_exact_patterns.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grounding/count_exact_patterns.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1494">
-              <caret line="89" column="82" lean-forward="false" selection-start-line="89" selection-start-column="82" selection-end-line="89" selection-end-column="82" />
+            <state relative-caret-position="1512">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding>
                 <marker date="1516349693663" expanded="true" signature="5488:5584" ph="..." />
               </folding>
@@ -64,8 +339,8 @@
       <file leaf-file-name="count_patterns_furer_OBD.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grounding/count_patterns_furer_OBD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="558">
+              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -84,8 +359,8 @@
       <file leaf-file-name="inference_logistic_regression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grounding/inference_logistic_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            <state relative-caret-position="36">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -96,8 +371,8 @@
       <file leaf-file-name="merge_csvs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grounding/merge_csvs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="756">
+              <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -109,7 +384,7 @@
         <entry file="file://$PROJECT_DIR$/grounding/generate_data_file_for_SC_experiments.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -176,15 +451,15 @@
         <option value="$PROJECT_DIR$/convert_graph_to_logic/fix_yeast_data.py" />
         <option value="$PROJECT_DIR$/convert_graph_to_logic/convert_new_webkb.py" />
         <option value="$PROJECT_DIR$/graph_manipulator/graph_analyzer.py" />
-        <option value="$PROJECT_DIR$/grounding/experiment_yeast.py" />
         <option value="$PROJECT_DIR$/grounding/generate_data_file_for_SC_experiments.py" />
         <option value="$PROJECT_DIR$/convert_graph_to_logic/webkb_logic_to_graph.py" />
         <option value="$PROJECT_DIR$/grounding/inference_logistic_regression.py" />
         <option value="$PROJECT_DIR$/grounding/count_exact_patterns.py" />
         <option value="$PROJECT_DIR$/grounding/ground_webkb_pattern_not_equal.py" />
         <option value="$PROJECT_DIR$/grounding/ground_webkb_pattern.py" />
-        <option value="$PROJECT_DIR$/grounding/merge_csvs.py" />
         <option value="$PROJECT_DIR$/grounding/count_patterns_furer_OBD.py" />
+        <option value="$PROJECT_DIR$/grounding/merge_csvs.py" />
+        <option value="$PROJECT_DIR$/grounding/experiment_yeast.py" />
         <option value="$PROJECT_DIR$/grounding/get_groundings_for_pattern.py" />
       </list>
     </option>
@@ -211,7 +486,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +502,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -252,7 +527,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_groundings_for_pattern">
+  <component name="RunManager" selected="Python.experiment_yeast">
+    <configuration name="experiment_yeast" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/grounding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graph_sampling" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grounding/experiment_yeast.py" />
+      <option name="PARAMETERS" value="-train $PROJECT_DIR$/../../DATA/DATA/WEBKB/folds/fold3-train.gpickle -test $PROJECT_DIR$/../../DATA/DATA/WEBKB/folds/fold3-test.gpickle -o $PROJECT_DIR$/../../DATA/INFERENCE_DATA/WEBKB/experiments_inference/page_class/RESULTS/ -e furer -p $PROJECT_DIR$/../../DATA/INFERENCE_DATA/WEBKB/experiments_inference/page_class/PATTERNS/ -const page -attr page_class -rT page_class -sT 2 -max_time 15" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="generate_data_file_for_SC_experiments" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,37 +613,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="webkb_logic_to_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/convert_graph_to_logic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="graph_sampling" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convert_graph_to_logic/webkb_logic_to_graph.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.ground_webkb_pattern" />
       <item index="1" class="java.lang.String" itemvalue="Python.get_groundings_for_pattern" />
-      <item index="2" class="java.lang.String" itemvalue="Python.webkb_logic_to_graph" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ground_webkb_pattern_not_equal" />
-      <item index="4" class="java.lang.String" itemvalue="Python.generate_data_file_for_SC_experiments" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ground_webkb_pattern_not_equal" />
+      <item index="3" class="java.lang.String" itemvalue="Python.generate_data_file_for_SC_experiments" />
+      <item index="4" class="java.lang.String" itemvalue="Python.experiment_yeast" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.get_groundings_for_pattern" />
-        <item index="1" class="java.lang.String" itemvalue="Python.generate_data_file_for_SC_experiments" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ground_webkb_pattern" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ground_webkb_pattern_not_equal" />
-        <item index="4" class="java.lang.String" itemvalue="Python.webkb_logic_to_graph" />
+        <item index="0" class="java.lang.String" itemvalue="Python.experiment_yeast" />
+        <item index="1" class="java.lang.String" itemvalue="Python.get_groundings_for_pattern" />
+        <item index="2" class="java.lang.String" itemvalue="Python.generate_data_file_for_SC_experiments" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ground_webkb_pattern" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ground_webkb_pattern_not_equal" />
       </list>
     </recent_temporary>
   </component>
@@ -429,21 +704,35 @@
       <option name="project" value="LOCAL" />
       <updated>1516390193773</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="generate commands changed">
+      <created>1516409004964</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516409004964</updated>
+    </task>
+    <task id="LOCAL-00011" summary="generate commands changed">
+      <created>1516409042305</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516409042305</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="744" y="96" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2991914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2991914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29856852" sideWeight="0.5040431" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3006135" sideWeight="0.49595687" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3006135" sideWeight="0.49595687" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978904" sideWeight="0.49811321" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398773" sideWeight="0.49811321" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -757,6 +1046,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grounding/generate_data_file_for_SC_experiments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grounding/ground_webkb_pattern_not_equal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grounding/ground_webkb_pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grounding/inference_logistic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grounding/merge_csvs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grounding/ground_target_predicate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -765,80 +1097,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grounding/inference_logistic_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grounding/count_exact_patterns.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1494">
-          <caret line="89" column="82" lean-forward="false" selection-start-line="89" selection-start-column="82" selection-end-line="89" selection-end-column="82" />
+        <state relative-caret-position="1512">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
             <marker date="1516349693663" expanded="true" signature="5488:5584" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grounding/generate_data_file_for_SC_experiments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grounding/experiment_yeast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grounding/merge_csvs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grounding/ground_webkb_pattern_not_equal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grounding/ground_webkb_pattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="137">
+          <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grounding/count_patterns_furer_OBD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="558">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grounding/get_groundings_for_pattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
+        <state relative-caret-position="887">
+          <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding />
         </state>
       </provider>

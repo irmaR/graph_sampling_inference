@@ -76,6 +76,7 @@ if __name__ == '__main__':
         parser.add_argument('-const', help='constant for the target predicate. e.g., protein')
         parser.add_argument('-attr', help='attribute for the target predicate. e.g., function')
         parser.add_argument('-rT', help='root node target, e.g., function')
+        parser.add_argument('-t',default=None, help='train,test or both')
         parser.add_argument('-sT', help='start node target, e.g., 2')
         parser.add_argument('-max_time',default=600, type=int,help='start node target, e.g., 2')
         args = parser.parse_args()
@@ -124,17 +125,20 @@ if __name__ == '__main__':
         fieldnames=['dummy','target',patterns[0].name]
         if args.e=="exact":
                 print "HERE"
-                exact.generate_csv_exact_counts(train_data,target,args.const,args.attr, OBDTarget, root_node_target, patterns, OBDPatterns,
+                if args.t == None or (args.t != None and args.t == "train"):
+                    exact.generate_csv_exact_counts(train_data,target,args.const,args.attr, OBDTarget, root_node_target, patterns, OBDPatterns,
                                           indices, root_nodes_patterns,pattern_equivalence,non_equivalence, output_train_csv, fieldnames,time_dict_train_csv,args.max_time)
                 print "Training data counted ..."
 
-                exact.generate_csv_exact_counts(test_data, target,args.const,args.attr, OBDTarget, root_node_target, patterns, OBDPatterns,
+                if args.t == None or (args.t != None and args.t == "test"):
+                    exact.generate_csv_exact_counts(test_data, target,args.const,args.attr, OBDTarget, root_node_target, patterns, OBDPatterns,
                                             indices, root_nodes_patterns,pattern_equivalence,non_equivalence, output_test_csv, fieldnames,time_dict_test_csv,args.max_time)
 
                 print "Test data counted ..."
         if args.e=="furer":
             # count train
-                furer.generate_csv_furerOBD_count(train_data, target, args.const, args.attr, OBDTarget, root_node_target,
+                if args.t == None or (args.t!=None and args.t == "train"):
+                    furer.generate_csv_furerOBD_count(train_data, target, args.const, args.attr, OBDTarget, root_node_target,
                                             patterns, OBDPatterns,
                                             indices, root_nodes_patterns, pattern_equivalence,non_equivalence,output_train_csv, fieldnames,
                                               time_train_dict,runtime)
@@ -142,7 +146,8 @@ if __name__ == '__main__':
                 print "Training data counted ..."
 
             # count test
-                furer.generate_csv_furerOBD_count(test_data, target, args.const, args.attr, OBDTarget, root_node_target,
+                if args.t == None or (args.t != None and args.t == "test"):
+                    furer.generate_csv_furerOBD_count(test_data, target, args.const, args.attr, OBDTarget, root_node_target,
                                             patterns, OBDPatterns,
                                             indices, root_nodes_patterns, pattern_equivalence,non_equivalence,output_test_csv, fieldnames,
                                               time_test_dict,runtime)

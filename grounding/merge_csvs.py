@@ -1,7 +1,7 @@
 import pandas as pd
 import os,argparse
 
-def merge_csvs(csvs_to_merge,out):
+def merge(csvs_to_merge,out):
     dfs = []
     target_added=False
     grounding_added=False
@@ -23,7 +23,17 @@ def merge_csvs(csvs_to_merge,out):
     # write it out
     merged.to_csv(out, header=None, index=None)
 
-
+def merge_csvs_main(path_to_results,out,exp):
+    if not os.path.isdir(out):
+        os.makedirs(out)
+    csvs_to_merge_train = []
+    csvs_to_merge_test = []
+    for dir in os.listdir(path_to_results):
+        if "pattern" in dir:
+            csvs_to_merge_train.append(os.path.join(path_to_results, dir, exp, "train.csv"))
+            csvs_to_merge_test.append(os.path.join(path_to_results, dir, exp, "test.csv"))
+    merge(csvs_to_merge_train, os.path.join(out, "merged_train.csv"))
+    merge(csvs_to_merge_test, os.path.join(out, "merged_test.csv"))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run exhaustive approach')
@@ -31,14 +41,4 @@ if __name__ == '__main__':
     parser.add_argument('-e', help='path to train gpickle')
     parser.add_argument('-o', help='output')
     args = parser.parse_args()
-    path_to_results=args.p
-    if not os.path.isdir(args.o):
-        os.makedirs(args.o)
-    csvs_to_merge_train=[]
-    csvs_to_merge_test = []
-    for dir in os.listdir(path_to_results):
-        if "pattern" in dir:
-            csvs_to_merge_train.append(os.path.join(path_to_results,dir,args.e,"train.csv"))
-            csvs_to_merge_test.append(os.path.join(path_to_results, dir, args.e,"test.csv"))
-    merge_csvs(csvs_to_merge_train, os.path.join(args.o, "merged_train.csv"))
-    merge_csvs(csvs_to_merge_test,os.path.join(args.o,"merged_test.csv"))
+    merge_csvs_main(args.p, args.o, args.e)
