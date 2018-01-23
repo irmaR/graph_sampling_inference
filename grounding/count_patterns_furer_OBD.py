@@ -27,7 +27,7 @@ def generate_monitoring_marks(time_interval_in_seconds,max_time_in_seconds):
 def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalences,pattern_non_equivalences):
    output_dict={}
    for k in grounding_dictionary.keys():
-       if not satisfied_equivalences(k,pattern_equivalences) and not satisfied_non_equivalence(k,pattern_non_equivalences):
+       if not (satisfied_equivalences(k,pattern_equivalences) and satisfied_non_equivalence(k,pattern_non_equivalences)):
            continue
        key=(k[ind1][1],k[ind2][1])
        if not key in output_dict:
@@ -35,8 +35,8 @@ def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalenc
        else:
            output_dict[key]+=grounding_dictionary[k]
    print "Size dict: ",len(output_dict)
-   #for k in output_dict:
-   #    print k,output_dict[k]
+   for k in output_dict:
+       print k,output_dict[k]
    return output_dict
 
 def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,time,pattern_equivalences,pattern_non_equivalences):
@@ -45,6 +45,7 @@ def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,time,pat
     for b in binding_indices:
         indices.append(Plist.index(b))
 
+    print "Indices to take: ",indices
     if pattern_equivalences==None:
         patt_equiv_indices=None
     else:
@@ -95,6 +96,8 @@ def satisfied_equivalences(grounding,equivalences):
     if equivalences==None:
         return True
     for eq in equivalences:
+        #print "EQUIV: ",eq
+        #print grounding
         if grounding[eq[0]][1]!=grounding[eq[1]][1]:
             return False
     return True
@@ -109,6 +112,7 @@ def satisfied_non_equivalence(grounding,non_equivalences):
 
 def generate_csv_furerOBD_count(data_graph,target_graph,target_constant,target_attr,OBDTarget,root_node_target,patterns,OBDPatterns,indices,root_nodes_patterns,pattern_equivalence,non_equivalences,csvfile,fieldnames,time_dict,runtime):
     tg = gtp.find_all_groundings_of_predicates(data_graph, target_attr, target_constant)
+    print "NR TARGET: ",len(tg)
     # for each ground target, ground all patterns and perfom counting, output a csv row
     dictionary_target_counts = {}
     pattern_groundings = []
@@ -144,12 +148,14 @@ def generate_csv_furerOBD_count(data_graph,target_graph,target_constant,target_a
         for target in tg:
             res_dict = {}
             key = (target.node[1]['value'], target.node[2]['value'])
+            #print "KEY: ",key
             res_dict['target'] = dictionary_target_counts[key]
             res_dict['dummy'] = key
             field_counter = 2
             pattern_counter=0
             for p in patterns:
                 if key in pattern_groundings[pattern_counter]:
+                    #print "KEY: ",key
                     res_dict[fieldnames[field_counter]] = pattern_groundings[pattern_counter][key]
                 else:
                     res_dict[fieldnames[field_counter]] = 0

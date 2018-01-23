@@ -119,6 +119,8 @@ if __name__ == '__main__':
         target = gtp.get_target_graph(args.const, args.attr)
         for i in target:
             print i,target.node[i]
+        print "Equal: ",pattern_equivalence
+        print "Not equal: ",non_equivalence
         OBDTarget = OBDsearch.get_heuristic4_OBD(target, startNode=int(args.sT))
         root_node_target = args.rT
 

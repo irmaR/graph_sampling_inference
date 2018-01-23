@@ -43,13 +43,15 @@ def count_combinations_arity_2(grounding_dictionary,ind1,ind2,pattern_equivalenc
    output_dict={}
    for k in grounding_dictionary.keys():
        #check first if equivalences hold
-       if not satisfied_equivalences(k,pattern_equivalences) and not satisfied_non_equivalence(k,non_equivalences):
+       if not (satisfied_equivalences(k,pattern_equivalences) and satisfied_non_equivalence(k,non_equivalences)):
            continue
        key=(k[ind1][1],k[ind2][1])
        if not key in output_dict:
            output_dict[key]=grounding_dictionary[k]
        else:
            output_dict[key]+=grounding_dictionary[k]
+   #for k in output_dict:
+   #    print k,output_dict[k]
    return output_dict
 
 def ground_the_pattern(data_graph,pattern,OBD,root_node,binding_indices,max_time,pattern_equivalences, non_equivalences):
