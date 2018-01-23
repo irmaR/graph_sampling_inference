@@ -32,8 +32,8 @@ def merge_csvs_main(path_to_results,out,exp):
         if "pattern" in dir:
             csvs_to_merge_train.append(os.path.join(path_to_results, dir, exp, "train.csv"))
             csvs_to_merge_test.append(os.path.join(path_to_results, dir, exp, "test.csv"))
-    merge(csvs_to_merge_train, os.path.join(out, "merged_train.csv"))
-    merge(csvs_to_merge_test, os.path.join(out, "merged_test.csv"))
+    merge(csvs_to_merge_train, os.path.join(out, "merged_train_time.csv"))
+    merge(csvs_to_merge_test, os.path.join(out, "merged_test_time.csv"))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run exhaustive approach')
