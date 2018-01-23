@@ -22,6 +22,7 @@ def merge(csvs_to_merge,out):
     merged = pd.concat(dfs,axis=1)
     # write it out
     merged.to_csv(out, header=None, index=None)
+    print "Written to:", out
 
 def merge_csvs_main(path_to_results,out,exp):
     if not os.path.isdir(out):
