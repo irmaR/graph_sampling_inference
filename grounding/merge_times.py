@@ -24,7 +24,7 @@ def get_average(csvs_to_merge,out):
     for p in pattern_time_dict:
         average_time_per_pattern[p]=pattern_time_dict[p]/len(csvs_to_merge)
 
-    print "Average time over folds: ",average_time
+    return average_time
 
 def merge_csvs_main(path_to_results,out,exp):
     if not os.path.isdir(out):
@@ -35,8 +35,10 @@ def merge_csvs_main(path_to_results,out,exp):
         if "fold" in dir:
             csvs_to_merge_train.append(os.path.join(path_to_results, dir, exp, "time_dict_train.csv"))
             csvs_to_merge_test.append(os.path.join(path_to_results, dir, exp, "time_dict_test.csv"))
-    get_average(csvs_to_merge_train, os.path.join(out, "average_train_time.csv"))
-    get_average(csvs_to_merge_test, os.path.join(out, "average_test_time.csv"))
+    train_time=get_average(csvs_to_merge_train, os.path.join(out, "average_train_time.csv"))
+    test_time =get_average(csvs_to_merge_test, os.path.join(out, "average_test_time.csv"))
+    print "Average total time over folds (train):",train_time
+    print "Average total time over folds (test):",test_time
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run exhaustive approach')
