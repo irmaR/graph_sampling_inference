@@ -33,8 +33,8 @@ def merge_csvs_main(path_to_results,out,exp,r):
     csvs_to_merge_test = []
     for dir in os.listdir(path_to_results):
         if "fold" in dir:
-            csvs_to_merge_train.append(os.path.join(path_to_results, dir,r, exp, "time_dict_train.csv"))
-            csvs_to_merge_test.append(os.path.join(path_to_results, dir,r, exp, "time_dict_test.csv"))
+            csvs_to_merge_train.append(os.path.join(path_to_results, dir,r, exp, "merged_train_time.csv"))
+            csvs_to_merge_test.append(os.path.join(path_to_results, dir,r, exp, "merged_test_time.csv"))
     train_time=get_average(csvs_to_merge_train, os.path.join(out, "average_train_time.csv"))
     test_time =get_average(csvs_to_merge_test, os.path.join(out, "average_test_time.csv"))
     print "Average total time over folds (train):",train_time
