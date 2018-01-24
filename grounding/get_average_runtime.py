@@ -9,16 +9,16 @@ def get_average(csvs_to_merge,out):
     for filename in csvs_to_merge:
         # read the csv, making sure the first two columns are str
         df = pd.read_csv(filename, header=None, converters={0: str, 1: str},skiprows=1)
-
+        sum_tmp=0
         for index, row in df.iterrows():
             pattern=row[0]
             time=float(row[1])
-            sum_time+=time
+            sum_tmp+=time
             if pattern in pattern_time_dict:
                 pattern_time_dict[pattern]+=time
             else:
                 pattern_time_dict[pattern]=time
-
+        sum_time+=sum_tmp
     average_time=sum_time/len(csvs_to_merge)
     average_time_per_pattern={}
     for p in pattern_time_dict:
