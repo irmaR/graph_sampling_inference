@@ -15,6 +15,7 @@ def merge(csvs_to_merge,out):
           target_added=True
           dfs.append(df)
           print "Header: ",df
+          print "---------------"
 
         df = df.iloc[[2]]
         print "Row: ",df
