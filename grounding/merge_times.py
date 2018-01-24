@@ -9,6 +9,7 @@ def merge(csvs_to_merge,out):
         # read the csv, making sure the first two columns are str
         df = pd.read_csv(filename, header=None, converters={0: str, 1: str})
         # throw away all but the first two columns
+        print "DF:",df
         if not target_added:
           df = df.ix[0,:]
           target_added=True
