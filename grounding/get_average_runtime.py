@@ -19,6 +19,8 @@ def get_average(csvs_to_merge,out):
             else:
                 pattern_time_dict[pattern]=time
         sum_time+=sum_tmp
+    print sum_time
+    print len(csvs_to_merge)
     average_time=sum_time/len(csvs_to_merge)
     average_time_per_pattern={}
     for p in pattern_time_dict:
