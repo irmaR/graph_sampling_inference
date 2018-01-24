@@ -18,6 +18,7 @@ def get_average(csvs_to_merge,out):
                 pattern_time_dict[pattern]+=time
             else:
                 pattern_time_dict[pattern]=time
+        print filename, sum_tmp
         sum_time+=sum_tmp
     print sum_time
     print len(csvs_to_merge)
