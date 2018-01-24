@@ -26,7 +26,7 @@ def merge(csvs_to_merge,out):
 
 
     # concatenate them horizontally
-    merged = pd.concat(dfs,axis=1)
+    merged = pd.concat(dfs,axis=0)
     # write it out
     merged.to_csv(out, header=None, index=None)
     print "Written to:", out
