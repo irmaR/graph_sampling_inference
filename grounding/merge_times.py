@@ -13,12 +13,16 @@ def merge(csvs_to_merge,out):
         if not target_added:
           df = df.ix[0,:]
           target_added=True
+          dfs.append(df)
+          print "Header: ",df
 
         df = df.ix[1,:]
-        print df
+        print "Row: ",df
+        dfs.append(df)
+
         # change the column names so they won't collide during concatenation
         #df.columns = [filename + str(cname) for cname in df.columns]
-        dfs.append(df)
+
 
     # concatenate them horizontally
     merged = pd.concat(dfs,axis=1)
