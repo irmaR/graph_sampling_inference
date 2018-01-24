@@ -11,13 +11,13 @@ def merge(csvs_to_merge,out):
         # throw away all but the first two columns
         print "DF:",df
         if not target_added:
-          df = df.iloc[[1]]
+          df = df.iloc[[0]]
           target_added=True
           dfs.append(df)
           print "Header: ",df
           print "---------------"
 
-        df = df.iloc[[2]]
+        df = df.iloc[[1]]
         print "Row: ",df
         dfs.append(df)
 
