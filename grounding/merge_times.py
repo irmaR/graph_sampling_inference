@@ -11,15 +11,15 @@ def merge(csvs_to_merge,out):
         # throw away all but the first two columns
         print "DF:",df
         if not target_added:
-          df = df.iloc[[0]]
+          dfh = df.iloc[[0]]
           target_added=True
-          dfs.append(df)
-          print "Header: ",df
+          dfs.append(dfh)
+          print "Header: ",dfh
           print "---------------"
 
-        df = df.iloc[[1]]
-        print "Row: ",df
-        dfs.append(df)
+        dfp = df.iloc[[1]]
+        print "Row: ",dfp
+        dfs.append(dfp)
 
         # change the column names so they won't collide during concatenation
         #df.columns = [filename + str(cname) for cname in df.columns]
