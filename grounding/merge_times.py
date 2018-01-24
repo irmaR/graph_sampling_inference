@@ -14,6 +14,7 @@ def merge(csvs_to_merge,out):
           target_added=True
         else:
           df = df.ix[1,:]
+        print df
         # change the column names so they won't collide during concatenation
         #df.columns = [filename + str(cname) for cname in df.columns]
         dfs.append(df)
