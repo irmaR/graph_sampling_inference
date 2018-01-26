@@ -8,7 +8,7 @@ def move_selected_patterns(selected_pattern_list,output_directory):
         for line in f:
              line=line.rstrip()
              pattern_file=os.path.join(line,'input_pattern.gml')
-             pattern_name=line.split("/")[-1]
+             pattern_name=line.split("/")[-1].replace("/","")
              print "pattern file: ",pattern_file
              print "pattern name", pattern_name
              print "output: ",os.path.join(output_directory,pattern_name,'.gml')
