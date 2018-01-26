@@ -11,6 +11,7 @@ def move_selected_patterns(selected_pattern_list,output_directory):
              pattern_name=line.split("/")[-1]
              print "pattern file: ",pattern_file
              print "pattern name", pattern_name
+             print "output: ",os.path.join(output_directory,pattern_name,'.gml')
              shutil.copy(pattern_file,os.path.join(output_directory,pattern_name,'.gml'))
 
 
